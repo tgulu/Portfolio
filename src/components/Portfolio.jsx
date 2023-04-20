@@ -97,11 +97,13 @@ const Portfolio = () => {
         >
           {portfolios.map(({ id, child, src, href, style }) => (
                 <div key={id} className={`shadow-md  rounded-lg ${style}`}>
+                   <a href={href} target="_blank" rel="noreferrer">
                 <img
                 src={src}
                 alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
+              </a>
                <div className="flex items-center justify-center">
                 <button className="w-1/8 px-2 justify-center py-1/8 m-4 duration-200 hover:scale-105">
                   <a href={href} target="_blank" rel="noreferrer">

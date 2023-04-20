@@ -60,11 +60,11 @@ const Experience = () => {
       className="bg-gradient-to-b from-gray-800 to-black w-full text-white md:h-screen"
     >
             <div className="max-w-screen-md p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className=" py-20 pb-2">
-        <p className="  text-4xl font-jazz inline border-b-2 border-white">
+        <div className="  pb-2">
+        <p className="  text-4xl  font-jazz inline border-b-2 border-white">
         Experience
           </p>
-          <p className="py-6 hidden md:flex ">Tech Stacks</p>
+          <p className="py-6  ">Tech Stacks</p>
         </div>
 
         <div name="card strcuture" className="w-full grid md:grid-cols-3 sm:grid-cols-3 py-4 text-center gap-8 px-20 pr-20 sm:px-0">
