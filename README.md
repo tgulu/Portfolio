@@ -1,6 +1,6 @@
 # Portfolio Website 
 
-## 1. URL: Computer-Science-Trivia
+## 1. URL: https://master--thabogulu.netlify.app/
 
 This is a portfolio website showcasing my skills as a junior software engineer, with a focus on Javascript, HTML, CSS, and Android development. The website is built using React and written in JSX, with styling done using Tailwind CSS.
 
