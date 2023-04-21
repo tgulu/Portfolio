@@ -23,12 +23,12 @@ const Portfolio = () => {
       id: 2,
       child: (
         <>
-          <span className="text-sm">Code Study Quiz</span>
+          <span className="text-sm">Computer-Science-Trivia</span>
         </>
       ),
       src: quiz
       ,
-      href: "https://github.com/",
+      href: "https://github.com/tgulu/Computer-Science-Trivia-Quiz",
       style: "shadow-cyan-400",
     },
     {
