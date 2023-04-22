@@ -9,7 +9,9 @@ module.exports = {
             rise: ["IBM+Plex+Mono"],
             float: ["Anuphan"],
             sedgwick: ["Sedgwick Ave Display"],
-            tilt: ["Tilt Prism"]
+            tilt: ["Tilt Prism"],
+            lilita: ["Lilita One"],
+            neue : ["Bebas Neue"]
 
 
 

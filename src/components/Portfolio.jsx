@@ -16,19 +16,21 @@ const Portfolio = () => {
         </>
       ),
       src: musicReview,
-      href: "https://github.com/",
+      href: "https://github.com/tgulu/Review",
+      sourceCode: "https://github.com/tgulu/Review",
       style: "shadow-white",
     },
     {
       id: 2,
       child: (
         <>
-          <span className="text-sm">Computer-Science-Trivia</span>
+          <span className="text-sm">Computer Science Trivia</span>
         </>
       ),
       src: quiz
       ,
       href: "https://github.com/tgulu/Computer-Science-Trivia-Quiz",
+      sourceCode: "https://tgulu.github.io/Computer-Science-Trivia-Quiz/",
       style: "shadow-cyan-400",
     },
     {
@@ -39,30 +41,33 @@ const Portfolio = () => {
         </>
       ),
       src: weather,
-      href: "https://tgulu.github.io/Weather/",
+      href: "https://github.com/tgulu/Weather",
+      sourceCode: "https://tgulu.github.io/Weather/",
       style: "shadow-purple-600",
     },
     {
       id: 4,
       child: (
         <>
-          <span className="text-sm">Chat App</span>
+          <span className="text-sm">Android Messenger</span>
         </>
       ),
       src: messageApp,
       href: "https://github.com/tgulu/Messenger-Chat-App",
+      sourceCode: "https://github.com/tgulu/Messenger-Chat-App",
       style: "shadow-cyan-400",
     },
     {
       id: 5,
       child: (
         <>
-          <span className="text-sm">Apple Music Display </span>
+          <span className="text-sm">Music Display </span>
         </>
       ),
       src: musicAPI
       ,
       href: "https://github.com/tgulu/AppleMusic",
+      sourceCode: "https://github.com/tgulu/AppleMusic",
       style: "shadow-white",
     },
     {
@@ -74,6 +79,7 @@ const Portfolio = () => {
       ),
       src: drone,
       href: "https://github.com/tgulu/Drone",
+      sourceCode: "https://github.com/tgulu/Drone",
       style: "shadow-pink-400",
     },
   ];
@@ -95,9 +101,9 @@ const Portfolio = () => {
           name="card strcuture"
           className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 px-12 sm:px-0"
         >
-          {portfolios.map(({ id, child, src, href, style }) => (
+          {portfolios.map(({ id, child, src, href, style, sourceCode }) => (
                 <div key={id} className={`shadow-md  rounded-lg ${style}`}>
-                   <a href={href} target="_blank" rel="noreferrer">
+                   <a href={sourceCode} target="_blank" rel="noreferrer">
                 <img
                 src={src}
                 alt=""
