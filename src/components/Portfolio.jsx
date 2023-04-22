@@ -39,7 +39,7 @@ const Portfolio = () => {
         </>
       ),
       src: weather,
-      href: "https://github.com/",
+      href: "https://tgulu.github.io/Weather/",
       style: "shadow-purple-600",
     },
     {
