@@ -1,5 +1,5 @@
 import About from "./components/About";
-import Contacts from "./components/Contacts";
+import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Home from "./components/Home"
 import NavBar from "./components/NavBar"
@@ -8,14 +8,14 @@ import SocialLinks from "./components/SocialLinks"
 
 function App() {
   return (
-    <div> 
-      <NavBar/>
+    <div>
+      <NavBar />
       <Home />
       <SocialLinks />
       <About />
-      <Portfolio /> 
-      <Experience /> 
-     <Contacts /> 
+      <Portfolio />
+      <Experience />
+      <Contact />
     </div>
   );
 }

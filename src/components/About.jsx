@@ -8,11 +8,10 @@ const About = () => {
     >
       <div className="max-w-screen-md p-4 mx-auto flex flex-col py-6 justify-center w-full h-full">
         <div className="">
-
-          {/*<p className="pt-20 font-jazz mt-0 mb-4 text-4xl">Experience</p> */}
-
-        <p className="pt-20 font-float mt-0 mb-4 text-4xl "> <span className="border-b-2 white">About </span></p> 
-{/*           <p className=" pt-20 text-5xl font-jazz mt-0 mb-4 inline  white">  About</p> */}
+          <p className="pt-20 font-float mt-0 mb-4 text-4xl ">
+            {" "}
+            <span className="border-b-2 white">About </span>
+          </p>
         </div>
         <p className=" text-start mx-auto px-4.5 mt-10">
           I am an innovative and highly skilled junior software engineer with a

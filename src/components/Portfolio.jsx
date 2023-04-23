@@ -27,8 +27,7 @@ const Portfolio = () => {
           <span className="text-sm">Computer Science Trivia</span>
         </>
       ),
-      src: quiz
-      ,
+      src: quiz,
       href: "https://github.com/tgulu/Computer-Science-Trivia-Quiz",
       sourceCode: "https://tgulu.github.io/Computer-Science-Trivia-Quiz/",
       style: "shadow-cyan-400",
@@ -64,8 +63,7 @@ const Portfolio = () => {
           <span className="text-sm">Music Display </span>
         </>
       ),
-      src: musicAPI
-      ,
+      src: musicAPI,
       href: "https://github.com/tgulu/AppleMusic",
       sourceCode: "https://github.com/tgulu/AppleMusic",
       style: "shadow-white",
@@ -88,16 +86,12 @@ const Portfolio = () => {
     <div
       name="portfolio"
       className="bg-gradient-to-b from-black to-gray-800  w-full text-white md:h-screen"
-      >
-     <div className="max-w-screen-md p-4 mx-auto flex flex-col justify-center w-full h-full">
+    >
+      <div className="max-w-screen-md p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="">
-
-        <p className="pt-20 font-float mt-0 mb-4 text-4xl "> <span className="border-b-2 white">Portfolio </span></p> 
-
-       {/*  <p className=" -mt-8 text-4xl font-jazz inline border-b-2 white sm:font-jazz sm:text-3xl md:text-4xl">
-  <span className="pt-10">Portfolio </span>
-</p> */}
-         {/*  <p className="py-3 ">Recent Projects</p> */}
+          <p className="pt-20 font-float mt-0 mb-4 text-4xl ">
+            <span className="border-b-2 white">Portfolio </span>
+          </p>
         </div>
 
         <div
@@ -105,18 +99,17 @@ const Portfolio = () => {
           className="pt-4 grid sm:grid-cols-2 md:grid-cols-3 gap-6 px-12 sm:px-0"
         >
           {portfolios.map(({ id, child, src, href, style, sourceCode }) => (
-                <div key={id} className={`shadow-md  rounded-lg ${style}`}>
-                   <a href={sourceCode} target="_blank" rel="noreferrer">
+            <div key={id} className={`shadow-md  rounded-lg ${style}`}>
+              <a href={sourceCode} target="_blank" rel="noreferrer">
                 <img
-                src={src}
-                alt=""
-                className="rounded-md duration-200 hover:scale-105"
-              />
+                  src={src}
+                  alt=""
+                  className="rounded-md duration-200 hover:scale-105"
+                />
               </a>
-               <div className="flex items-center justify-center">
+              <div className="flex items-center justify-center">
                 <button className="w-1/8 px-2 justify-center py-1/8 m-4 duration-200 hover:scale-105">
                   <a href={href} target="_blank" rel="noreferrer">
-
                     {child}
                   </a>
                 </button>
