@@ -7,7 +7,7 @@ const NavBar = () => {
   const [fontIndex, setFontIndex] = useState(0);
 
 
-  const fonts = ["font-jazz", "font-rise", "font-signature", "font-style","font-float", "font-sedgwick" ];
+  const fonts = ["font-jazz", "font-rise", "font-signature", "font-style","font-float", "font-sedgwick", "font-lilita", "font-neue"];
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -43,12 +43,9 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 text-white bg-black fixed">
       <div className="flex">
-        <h1 className="text-3xl cursor-pointer font-rise hover:scale-105 duration-200 ml-3">
-          Thabo
-        </h1>
-        <h1
-          className={`text-3xl cursor-pointer hover:scale-105 duration-200 ml-3  ${fonts[fontIndex]}`}
-        >
+      <h1 className={`text-3xl cursor-pointer hover:scale-105 duration-200 ml-3  ${fonts[fontIndex]}`}
+          >
+            Thabo
           Gulu
         </h1>
       </div>

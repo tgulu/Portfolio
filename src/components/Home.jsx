@@ -1,6 +1,5 @@
 
 import Profile from "../assets/profile.png";
-import React, { useState, useEffect } from "react";
 import {RxDoubleArrowRight } from "react-icons/rx";
 import {Link} from "react-scroll";
 
@@ -8,19 +7,6 @@ import {Link} from "react-scroll";
 
 const Home = () => {
 
-  const [fontIndex, setFontIndex] = useState(0);
-
-
-  const fonts = ["font-jazz", "font-rise", "font-signature", "font-style","font-float", "font-lilita", "font-neue"];
-
-  useEffect(() => {
-
-    const intervalId = setInterval(() => {
-      setFontIndex((fontIndex + 1) % fonts.length); // Update the font index at regular intervals
-    }, 2500);
-
-    return () => clearInterval(intervalId);
-  }, [fontIndex, fonts.length]);
 
   return (
     <div
@@ -30,7 +16,7 @@ const Home = () => {
       <div name="bio" className="max-w-screen-lg mx-auto flex flex-col items-center justify-center  h-full px-5 md:flex-row">
         <div className="flex flex-col justify-center w-auto h-full">
 
-          <h5 className=  {`lg:flex flex-col text-5xl max-w-md py-8   sm:text-6xl font-rise text-white ${fonts[fontIndex]}`} >
+          <h5 className=  "lg:flex flex-col text-5xl max-w-md py-8   sm:text-6xl font-rise text-white" >
             Software Developer
           </h5>
           <p className="text-white text-base max-w-md">
