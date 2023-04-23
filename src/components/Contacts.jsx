@@ -5,8 +5,9 @@ const Contacts = () => {
     <div name="contacts" className="bg-gradient-to-b from-black to-gray-800 w-full p-4 text-white md:h-screen">
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8" >
-          <p className="text-4xl font-rise inline  border-b-2 border-white">Contact</p>
-          <p className="py-2">Submit Form To Get In Touch</p>
+        <p className="pt-20 font-float mt-0 mb-4 text-4xl "> <span className="border-b-2 white">Contact </span></p> 
+{/*           <p className="text-4xl font-rise inline  border-b-2 border-white">Contact</p> */}
+          <p className="py-2">Get in touch to find out more about my work and services.</p>
         </div>
         <div className="flex justify-center items-center">
           <form action="https://getform.io/f/50805f75-578f-493c-90f2-bfcc9510eb3f" method="POST" className="flex flex-col w-full md:w-1/4">

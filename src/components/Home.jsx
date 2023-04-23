@@ -15,8 +15,8 @@ const Home = () => {
     >
       <div name="bio" className="max-w-screen-lg mx-auto flex flex-col items-center justify-center  h-full px-5 md:flex-row">
         <div className="flex flex-col justify-center w-auto h-full">
-
-          <h5 className=  "lg:flex flex-col text-5xl max-w-md py-8   sm:text-6xl font-rise text-white" >
+       {/*  ["font-jazz", "font-rise", "font-signature", "font-style","font-float", "font-sedgwick", "font-lilita", "font-neue"];  */}
+          <h5 className=  "lg:flex flex-col text-5xl max-w-md py-8 sm:text-6xl font-float text-white" >
             Software Developer
           </h5>
           <p className="text-white text-base max-w-md">
@@ -36,7 +36,7 @@ const Home = () => {
           <img
             src={Profile}
             alt="profile pic"
-            className=" rounded-3xl mx-auto max-w-sm max-h-md w-48 md:h-full border-4 border-cyan-200" 
+            className=" rounded-3xl mx-auto max-w-sm max-h-md w-60 md:h-full border-4 border-cyan-200" 
           />
         </div>
       </div>

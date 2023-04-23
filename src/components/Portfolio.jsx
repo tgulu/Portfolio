@@ -89,17 +89,20 @@ const Portfolio = () => {
       name="portfolio"
       className="bg-gradient-to-b from-black to-gray-800  w-full text-white md:h-screen"
       >
-     <div className="max-w-screen-md p-8 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-2">
-        <p className=" text-4xl font-jazz inline border-b-2 white">
-            Portfolio
-          </p>
-          <p className="py-3">Recent Projects</p>
+     <div className="max-w-screen-md p-4 mx-auto flex flex-col justify-center w-full h-full">
+        <div className="">
+
+        <p className="pt-20 font-float mt-0 mb-4 text-4xl "> <span className="border-b-2 white">Portfolio </span></p> 
+
+       {/*  <p className=" -mt-8 text-4xl font-jazz inline border-b-2 white sm:font-jazz sm:text-3xl md:text-4xl">
+  <span className="pt-10">Portfolio </span>
+</p> */}
+         {/*  <p className="py-3 ">Recent Projects</p> */}
         </div>
 
         <div
           name="card strcuture"
-          className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 px-12 sm:px-0"
+          className="pt-4 grid sm:grid-cols-2 md:grid-cols-3 gap-6 px-12 sm:px-0"
         >
           {portfolios.map(({ id, child, src, href, style, sourceCode }) => (
                 <div key={id} className={`shadow-md  rounded-lg ${style}`}>
