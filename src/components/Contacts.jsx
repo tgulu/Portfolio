@@ -7,7 +7,7 @@ const Contacts = () => {
         <div className="pb-8" >
         <p className="pt-20 font-float mt-0 mb-4 text-4xl "> <span className="border-b-2 white">Contact </span></p> 
 {/*           <p className="text-4xl font-rise inline  border-b-2 border-white">Contact</p> */}
-          <p className="py-2">Get in touch to find out more about my work and services.</p>
+          <p className="py-2">Want to learn more about my experience and skills as a junior developer? Fill out the form below to get in touch and start the conversation.</p>
         </div>
         <div className="flex justify-center items-center">
           <form action="https://getform.io/f/50805f75-578f-493c-90f2-bfcc9510eb3f" method="POST" className="flex flex-col w-full md:w-1/4">

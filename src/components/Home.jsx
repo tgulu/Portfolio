@@ -16,7 +16,7 @@ const Home = () => {
       <div name="bio" className="max-w-screen-lg mx-auto flex flex-col items-center justify-center  h-full px-5 md:flex-row">
         <div className="flex flex-col justify-center w-auto h-full">
        {/*  ["font-jazz", "font-rise", "font-signature", "font-style","font-float", "font-sedgwick", "font-lilita", "font-neue"];  */}
-          <h5 className=  "lg:flex flex-col text-5xl max-w-md py-8 sm:text-6xl font-float text-white" >
+          <h5 className=  "lg:flex flex-col text-4xl max-w-md py-8 sm:text-6xl font-float text-white" >
             Software Developer
           </h5>
           <p className="text-white text-base max-w-md">

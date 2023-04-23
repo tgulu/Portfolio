@@ -47,21 +47,45 @@ const Experience = () => {
   ];
 
   return (
-    <div name="experience" className="bg-gradient-to-b from-gray-800 to-black w-full text-white md:h-screen">
+    <div
+      name="experience"
+      className="bg-gradient-to-b from-gray-800 to-black w-full text-white md:h-screen"
+    >
       <div className="max-w-screen-md p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-2">
-{/*           <p className="text-4xl font-jazz inline">
+          {/*           <p className="text-4xl font-jazz inline">
             <span className="hidden  sm:inline-block pt-16 border-b-2 border-white">Experience</span>
           </p> */}
-                  <p className="pt-20 font-float mt-0 mb-4 text-4xl "> <span className="border-b-2 white">Experience </span></p> 
-      {/*      <p className="pt-20 font-jazz mt-0 mb-4 text-4xl">Experience</p>  */}
+          <p className="pt-20 font-float mt-0 mb-4 text-4xl ">
+            {" "}
+            <span className="border-b-2 white">Experience </span>
+          </p>
+          {/*      <p className="pt-20 font-jazz mt-0 mb-4 text-4xl">Experience</p>  */}
         </div>
 
-        <div name="card strcuture" className="w-full grid md:grid-cols-3 sm:grid-cols-3 py-4 text-center gap-8 px-20 pr-20 sm:px-0">
+        {/* WORKING HERE RN */}
+
+        {/*         <div name="card strcuture" className="w-full grid md:grid-cols-3 sm:grid-cols-3 py-4 text-center gap-8 px-20 pr-20 sm:px-0"> */}
+
+        <div
+          name="card strcuture"
+          className="pt-4 grid sm:grid-cols-2  md:grid-cols-3 gap-6 px-12 sm:px-0 justify-items-center"
+        >
           {techs.map(({ id, src, title, style }) => (
-            <div key={id} className={`shadow-md w-56 h-52 px-1 py-4 hover:scale-105 duration-500 rounded-lg ${style}`}>
-              <img src={src} alt="" className="justify-center w-20 mx-auto my-5" />
-              <p className="mt-4">{title}</p>
+            
+            <div
+              key={id}
+              className={`shadow-md w-56  h-52 px-1 py-4 hover:scale-105 duration-500 rounded-lg ${style}`}
+            >
+              <img
+                src={src}
+                alt=""
+                className="justify-center w-20 mx-auto my-5"
+              />
+             <div className="text-center">
+    <p className="mt-8">{title}</p>
+  </div>
+
             </div>
           ))}
         </div>
