@@ -12,12 +12,12 @@ const Portfolio = () => {
       id: 1,
       child: (
         <>
-          <span className="text-sm">Music Review</span>
+          <span className="text-sm">Music Review Website</span>
         </>
       ),
       src: musicReview,
-      href: "https://github.com/tgulu/Review",
-      sourceCode: "https://github.com/tgulu/Review",
+      href: "https://github.com/tgulu/Albums",
+      sourceCode: "https://github.com/tgulu/Albums",
       style: "shadow-white",
     },
     {
@@ -87,7 +87,7 @@ const Portfolio = () => {
       name="portfolio"
       className="bg-gradient-to-b from-black to-gray-800  w-full text-white md:h-screen"
     >
-      <div className="max-w-screen-md p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="">
           <p className="pt-20 font-float mt-0 mb-4 text-4xl ">
             <span className="border-b-2 white">Portfolio </span>
