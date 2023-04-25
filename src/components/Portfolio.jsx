@@ -18,7 +18,7 @@ const Portfolio = () => {
       src: musicReview,
       href: "https://github.com/tgulu/Albums",
       sourceCode: "https://github.com/tgulu/Albums",
-      style: "shadow-white",
+      style: "shadow-cyan-400",
     },
     {
       id: 2,
@@ -28,9 +28,9 @@ const Portfolio = () => {
         </>
       ),
       src: quiz,
-      href: "https://github.com/tgulu/Computer-Science-Trivia-Quiz",
-      sourceCode: "https://tgulu.github.io/Computer-Science-Trivia-Quiz/",
-      style: "shadow-cyan-400",
+      href: "https://github.com/tgulu/Computer-Science-Trivia-Quiz" ,
+      sourceCode: "https://computerscience-trivia.netlify.app/",
+      style: "shadow-white",
     },
     {
       id: 3,
@@ -42,7 +42,7 @@ const Portfolio = () => {
       src: weather,
       href: "https://github.com/tgulu/Weather",
       sourceCode: "https://tgulu.github.io/Weather/",
-      style: "shadow-purple-600",
+      style: "shadow-pink-600",
     },
     {
       id: 4,
@@ -78,7 +78,7 @@ const Portfolio = () => {
       src: drone,
       href: "https://github.com/tgulu/Drone",
       sourceCode: "https://github.com/tgulu/Drone",
-      style: "shadow-pink-400",
+      style: "shadow-pink-600",
     },
   ];
 
@@ -104,13 +104,13 @@ const Portfolio = () => {
                 <img
                   src={src}
                   alt=""
-                  className="rounded-md duration-200 hover:scale-105"
+                  className="rounded-md duration-200 hover:scale-125"
                 />
               </a>
               <div className="flex items-center justify-center">
-                <button className="w-1/8 px-2 justify-center py-1/8 m-4 duration-200 hover:scale-105">
+                <button className="w-1/8 px-2 justify-center py-1/8 m-4 duration-200 hover:scale-110">
                   <a href={href} target="_blank" rel="noreferrer">
-                    {child}
+                    Code:  {child}
                   </a>
                 </button>
               </div>
