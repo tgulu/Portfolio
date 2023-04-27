@@ -44,7 +44,7 @@ const NavBar = () => {
     },
     {
       id: 5,
-      link: "contacts",
+      link: "contact",
     },
   ];
 
