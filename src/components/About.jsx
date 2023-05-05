@@ -9,7 +9,7 @@ const About = () => {
       <div className="max-w-screen-md p-4 mx-auto flex flex-col py-6 justify-center w-full h-full">
         <div className="">
           <p className="pt-20 font-float mt-0 mb-4 text-4xl ">
-            {" "}
+
             <span className="border-b-2 white">About </span>
           </p>
         </div>
