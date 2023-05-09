@@ -4,7 +4,8 @@ import musicReview from "../assets/portfolio/musicReview.jpg";
 import weather from "../assets/portfolio/weather.jpg";
 import messageApp from "../assets/portfolio/messageApp.jpg";
 import musicAPI from "../assets/portfolio/musicAPI.jpg";
-import drone from "../assets/portfolio/drone.jpg";
+import skater from "../assets/portfolio/e-commerce.jpg";
+//import drone from "../assets/portfolio/drone.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -18,13 +19,26 @@ const Portfolio = () => {
       src: musicReview,
       href: "https://github.com/tgulu/Albums",
       sourceCode: "https://github.com/tgulu/Albums",
-      style: "shadow-cyan-400",
+      style: "shadow-orange-400",
     },
     {
       id: 2,
       child: (
         <>
-          <span className="text-sm">Computer Science Trivia</span>
+          <span className="text-sm">Skateboard E-Commerce Website </span>
+        </>
+      ),
+      src: skater, 
+      href: "https://github.com/tgulu/Skateboard-E-Commerce " ,
+      sourceCode: "https://axel-stall.netlify.app/",
+      style: "shadow-yellow-400",
+    },
+    
+    {
+      id: 3,
+      child: (
+        <>
+          <span className="text-sm">Computer Science Trivia Website</span>
         </>
       ),
       src: quiz,
@@ -33,19 +47,19 @@ const Portfolio = () => {
       style: "shadow-white",
     },
     {
-      id: 3,
+      id: 4,
       child: (
         <>
-          <span className="text-sm">Weather</span>
+          <span className="text-sm">Weather Website</span>
         </>
       ),
       src: weather,
       href: "https://github.com/tgulu/Weather",
       sourceCode: "https://tgulu.github.io/Weather/",
-      style: "shadow-pink-600",
+      style: "shadow-cyan-400",
     },
     {
-      id: 4,
+      id: 5,
       child: (
         <>
           <span className="text-sm">Android Messenger</span>
@@ -54,32 +68,32 @@ const Portfolio = () => {
       src: messageApp,
       href: "https://github.com/tgulu/Messenger-Chat-App",
       sourceCode: "https://github.com/tgulu/Messenger-Chat-App",
-      style: "shadow-cyan-400",
-    },
-    {
-      id: 5,
-      child: (
-        <>
-          <span className="text-sm">Music Display </span>
-        </>
-      ),
-      src: musicAPI,
-      href: "https://github.com/tgulu/AppleMusic",
-      sourceCode: "https://github.com/tgulu/AppleMusic",
-      style: "shadow-white",
+      style: "shadow-green-400",
     },
     {
       id: 6,
       child: (
         <>
-          <span className="text-sm">Drone</span>
+          <span className="text-sm">Android Music Display </span>
         </>
       ),
-      src: drone,
-      href: "https://github.com/tgulu/Drone",
-      sourceCode: "https://github.com/tgulu/Drone",
-      style: "shadow-pink-600",
+      src: musicAPI,
+      href: "https://github.com/tgulu/AppleMusic",
+      sourceCode: "https://github.com/tgulu/AppleMusic",
+      style: "shadow-pink-400",
     },
+    // {
+    //   id: 6,
+    //   child: (
+    //     <>
+    //       <span className="text-sm">Drone</span>
+    //     </>
+    //   ),
+    //   src: drone,
+    //   href: "https://github.com/tgulu/Drone",
+    //   sourceCode: "https://github.com/tgulu/Drone",
+    //   style: "shadow-pink-600",
+    // },
   ];
 
   return (
