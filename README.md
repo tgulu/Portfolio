@@ -15,10 +15,8 @@ Contact page with a contact form for potential employers or collaborators to get
 ## 3. Technologies Used
 The website is built using the following technologies:
 
-React
-JSX
-Tailwind CSS
-
+1. React JSX
+2. Tailwind CSS
 
 ## 4. How to Run the Website
 To run the website locally, follow these steps:

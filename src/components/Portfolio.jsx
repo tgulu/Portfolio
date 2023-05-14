@@ -3,8 +3,9 @@ import quiz from "../assets/portfolio/quiz.jpg";
 import musicReview from "../assets/portfolio/musicReview.jpg";
 import weather from "../assets/portfolio/weather.jpg";
 import messageApp from "../assets/portfolio/messageApp.jpg";
-import musicAPI from "../assets/portfolio/musicAPI.jpg";
 import skater from "../assets/portfolio/e-commerce.jpg";
+import bnb from "../assets/portfolio/bnb.jpg";
+// import musicAPI from "../assets/portfolio/musicAPI.jpg";
 //import drone from "../assets/portfolio/drone.jpg";
 
 const Portfolio = () => {
@@ -28,23 +29,23 @@ const Portfolio = () => {
           <span className="text-sm">Skateboard E-Commerce Website </span>
         </>
       ),
-      src: skater, 
-      href: "https://github.com/tgulu/Skateboard-E-Commerce " ,
+      src: skater,
+      href: "https://github.com/tgulu/Skateboard-E-Commerce ",
       sourceCode: "https://axel-stall.netlify.app/",
       style: "shadow-yellow-400",
     },
-    
+
     {
       id: 3,
       child: (
         <>
-          <span className="text-sm">Computer Science Trivia Website</span>
+          <span className="text-sm">Hestia Haven</span>
         </>
       ),
-      src: quiz,
-      href: "https://github.com/tgulu/Computer-Science-Trivia-Quiz" ,
-      sourceCode: "https://computerscience-trivia.netlify.app/",
-      style: "shadow-white",
+      src: bnb,
+      href: "https://github.com/tgulu/Hestia-Haven",
+      sourceCode: " https://tgulu.github.io/Hestia-Haven/",
+      style: "shadow-pink-400",
     },
     {
       id: 4,
@@ -62,6 +63,18 @@ const Portfolio = () => {
       id: 5,
       child: (
         <>
+          <span className="text-sm">Computer Science Trivia Website</span>
+        </>
+      ),
+      src: quiz,
+      href: "https://github.com/tgulu/Computer-Science-Trivia-Quiz",
+      sourceCode: "https://computerscience-trivia.netlify.app/",
+      style: "shadow-white",
+    },
+    {
+      id: 6,
+      child: (
+        <>
           <span className="text-sm">Android Messenger</span>
         </>
       ),
@@ -70,20 +83,22 @@ const Portfolio = () => {
       sourceCode: "https://github.com/tgulu/Messenger-Chat-App",
       style: "shadow-green-400",
     },
-    {
-      id: 6,
-      child: (
-        <>
-          <span className="text-sm">Android Music Display </span>
-        </>
-      ),
-      src: musicAPI,
-      href: "https://github.com/tgulu/AppleMusic",
-      sourceCode: "https://github.com/tgulu/AppleMusic",
-      style: "shadow-pink-400",
-    },
+
     // {
-    //   id: 6,
+    //   id: 7,
+    //   child: (
+    //     <>
+    //       <span className="text-sm">Android Music Display </span>
+    //     </>
+    //   ),
+    //   src: musicAPI,
+    //   href: "https://github.com/tgulu/AppleMusic",
+    //   sourceCode: "https://github.com/tgulu/AppleMusic",
+    //   style: "shadow-pink-400",
+    // },
+
+    // {
+    //   id: 8,
     //   child: (
     //     <>
     //       <span className="text-sm">Drone</span>
@@ -124,7 +139,7 @@ const Portfolio = () => {
               <div className="flex items-center justify-center">
                 <button className="w-1/8 px-2 justify-center py-1/8 m-4 duration-200 hover:scale-110">
                   <a href={href} target="_blank" rel="noreferrer">
-                    Code:  {child}
+                    Code: {child}
                   </a>
                 </button>
               </div>
