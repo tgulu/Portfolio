@@ -2,7 +2,8 @@ import React from "react";
 import quiz from "../assets/portfolio/quiz.jpg";
 import musicReview from "../assets/portfolio/musicReview.jpg";
 import weather from "../assets/portfolio/weather.jpg";
-import messageApp from "../assets/portfolio/messageApp.jpg";
+
+import movies from "../assets/portfolio/movies.jpeg";
 import skater from "../assets/portfolio/e-commerce.jpg";
 import bnb from "../assets/portfolio/bnb.jpg";
 // import musicAPI from "../assets/portfolio/musicAPI.jpg";
@@ -39,6 +40,19 @@ const Portfolio = () => {
       id: 3,
       child: (
         <>
+          <span className="text-sm">Show Time</span>
+        </>
+      ),
+      src: movies,
+      href: "https://show-time-movies.netlify.app/",
+      sourceCode: "https://github.com/tgulu/Show-Time",
+      style: "shadow-green-400",
+    },
+
+    {
+      id: 4,
+      child: (
+        <>
           <span className="text-sm">Hestia Haven</span>
         </>
       ),
@@ -48,7 +62,7 @@ const Portfolio = () => {
       style: "shadow-pink-400",
     },
     {
-      id: 4,
+      id: 5,
       child: (
         <>
           <span className="text-sm">Weather Website</span>
@@ -60,7 +74,7 @@ const Portfolio = () => {
       style: "shadow-cyan-400",
     },
     {
-      id: 5,
+      id: 6,
       child: (
         <>
           <span className="text-sm">Computer Science Trivia Website</span>
@@ -71,18 +85,8 @@ const Portfolio = () => {
       sourceCode: "https://computerscience-trivia.netlify.app/",
       style: "shadow-white",
     },
-    {
-      id: 6,
-      child: (
-        <>
-          <span className="text-sm">Android Messenger</span>
-        </>
-      ),
-      src: messageApp,
-      href: "https://github.com/tgulu/Messenger-Chat-App",
-      sourceCode: "https://github.com/tgulu/Messenger-Chat-App",
-      style: "shadow-green-400",
-    },
+    
+    
 
     // {
     //   id: 7,
@@ -108,6 +112,19 @@ const Portfolio = () => {
     //   href: "https://github.com/tgulu/Drone",
     //   sourceCode: "https://github.com/tgulu/Drone",
     //   style: "shadow-pink-600",
+    // },
+
+    // {
+    //   id: 9,
+    //   child: (
+    //     <>
+    //       <span className="text-sm">Android Messenger</span>
+    //     </>
+    //   ),
+    //   src: messageApp,
+    //   href: "https://github.com/tgulu/Messenger-Chat-App",
+    //   sourceCode: "https://github.com/tgulu/Messenger-Chat-App",
+    //   style: "shadow-green-400",
     // },
   ];
 
