@@ -46,7 +46,7 @@ const Portfolio = () => {
       src: movies,
       href: "https://show-time-movies.netlify.app/",
       sourceCode: "https://github.com/tgulu/Show-Time",
-      style: "shadow-green-400",
+      style: "shadow-green-300",
     },
 
     {
