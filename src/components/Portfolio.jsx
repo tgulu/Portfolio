@@ -1,8 +1,7 @@
 import React from "react";
-import quiz from "../assets/portfolio/quiz.jpg";
+import photography from "../assets/portfolio/shotby.png";
 import musicReview from "../assets/portfolio/musicReview.jpg";
 import weather from "../assets/portfolio/weather.jpg";
-
 import movies from "../assets/portfolio/movies.jpeg";
 import skater from "../assets/portfolio/e-commerce.jpg";
 import bnb from "../assets/portfolio/bnb.jpg";
@@ -27,6 +26,18 @@ const Portfolio = () => {
       id: 2,
       child: (
         <>
+          <span className="text-sm">Photography Portfolio</span>
+        </>
+      ),
+      src: photography,
+      href: "https://github.com/tgulu/Photography",
+      sourceCode: "https://shotbygulu.netlify.app/",
+      style: "shadow-purple-400",
+    },
+    {
+      id: 3,
+      child: (
+        <>
           <span className="text-sm">Skateboard E-Commerce Website </span>
         </>
       ),
@@ -37,20 +48,20 @@ const Portfolio = () => {
     },
 
     {
-      id: 3,
+      id: 4,
       child: (
         <>
           <span className="text-sm">Show Time</span>
         </>
       ),
       src: movies,
-      href: "https://show-time-movies.netlify.app/",
-      sourceCode: "https://github.com/tgulu/Show-Time",
+      href: "https://github.com/tgulu/Show-Time",
+      sourceCode: "https://show-time-movies.netlify.app/" ,
       style: "shadow-green-300",
     },
 
     {
-      id: 4,
+      id: 5,
       child: (
         <>
           <span className="text-sm">Hestia Haven</span>
@@ -62,7 +73,7 @@ const Portfolio = () => {
       style: "shadow-pink-400",
     },
     {
-      id: 5,
+      id: 6,
       child: (
         <>
           <span className="text-sm">Weather Website</span>
@@ -73,20 +84,19 @@ const Portfolio = () => {
       sourceCode: "https://tgulu.github.io/Weather/",
       style: "shadow-cyan-400",
     },
-    {
-      id: 6,
-      child: (
-        <>
-          <span className="text-sm">Computer Science Trivia Website</span>
-        </>
-      ),
-      src: quiz,
-      href: "https://github.com/tgulu/Computer-Science-Trivia-Quiz",
-      sourceCode: "https://computerscience-trivia.netlify.app/",
-      style: "shadow-white",
-    },
-    
-    
+
+    // {
+    //   id: 6,
+    //   child: (
+    //     <>
+    //       <span className="text-sm">Computer Science Trivia Website</span>
+    //     </>
+    //   ),
+    //   src: quiz,
+    //   href: "https://github.com/tgulu/Computer-Science-Trivia-Quiz",
+    //   sourceCode: "https://computerscience-trivia.netlify.app/",
+    //   style: "shadow-white",
+    // },
 
     // {
     //   id: 7,
