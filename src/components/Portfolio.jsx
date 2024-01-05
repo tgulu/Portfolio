@@ -1,12 +1,13 @@
 import React from "react";
 import photography from "../assets/portfolio/shotby.png";
 import musicReview from "../assets/portfolio/musicReview.jpg";
-import weather from "../assets/portfolio/weather.jpg";
+import cameron from "../assets/portfolio/cameron4.jpg";
 import movies from "../assets/portfolio/movies.jpeg";
 import skater from "../assets/portfolio/e-commerce.jpg";
 import bnb from "../assets/portfolio/bnb.jpg";
 // import musicAPI from "../assets/portfolio/musicAPI.jpg";
 //import drone from "../assets/portfolio/drone.jpg";
+// import weather from "../assets/portfolio/weather.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -14,12 +15,12 @@ const Portfolio = () => {
       id: 1,
       child: (
         <>
-          <span className="text-sm">Music Review Website</span>
+          <span className="text-sm">Cameron Nesbitt</span>
         </>
       ),
-      src: musicReview,
-      href: "https://github.com/tgulu/Albums",
-      sourceCode: "https://github.com/tgulu/Albums",
+      src: cameron,
+      href: "https://github.com/tgulu/Music-Producer",
+      sourceCode: "https://cameronnesbitt.netlify.app/",
       style: "shadow-orange-400",
     },
     {
@@ -76,14 +77,26 @@ const Portfolio = () => {
       id: 6,
       child: (
         <>
-          <span className="text-sm">Weather Website</span>
+          <span className="text-sm">Music Review Website</span>
         </>
       ),
-      src: weather,
-      href: "https://github.com/tgulu/Weather",
-      sourceCode: "https://tgulu.github.io/Weather/",
-      style: "shadow-cyan-400",
+      src: musicReview,
+      href: "https://github.com/tgulu/Albums",
+      sourceCode: "https://github.com/tgulu/Albums",
+      style: "shadow-orange-400",
     },
+    // {
+    //   id: 6,
+    //   child: (
+    //     <>
+    //       <span className="text-sm">Weather Website</span>
+    //     </>
+    //   ),
+    //   src: weather,
+    //   href: "https://github.com/tgulu/Weather",
+    //   sourceCode: "https://tgulu.github.io/Weather/",
+    //   style: "shadow-cyan-400",
+    // },
 
     // {
     //   id: 6,
