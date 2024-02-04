@@ -20,7 +20,7 @@ const Portfolio = () => {
       ),
       src: cameron,
       href: "https://github.com/tgulu/Music-Producer",
-      sourceCode: "https://cameronnesbitt.netlify.app/",
+      sourceCode: "https://cameronnesbitt.com/",
       style: "shadow-orange-400",
     },
     {
@@ -32,7 +32,7 @@ const Portfolio = () => {
       ),
       src: photography,
       href: "https://github.com/tgulu/Photography",
-      sourceCode: "https://shotbygulu.netlify.app/",
+      sourceCode: "https://thabogulu.com",
       style: "shadow-purple-400",
     },
     {
@@ -44,7 +44,7 @@ const Portfolio = () => {
       ),
       src: skater,
       href: "https://github.com/tgulu/Skateboard-E-Commerce ",
-      sourceCode: "https://axel-stall.netlify.app/",
+      sourceCode: "https://skateby.thabogulu.com",
       style: "shadow-yellow-400",
     },
 
