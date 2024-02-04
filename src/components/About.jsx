@@ -14,8 +14,8 @@ const About = () => {
           </p>
         </div>
         <p className=" text-start mx-auto px-4.5 mt-10">
-          I am an innovative and highly skilled junior software engineer with a
-          passion for front-end development using React. I have a strong
+          I am an innovative and highly skilled software engineer with a
+          passion for front-end development using React, Javascript, HTML, and CSS. I have a strong
           background in object-oriented programming, test-driven development,
           and agile project management methodologies. My technical proficiency
           includes Javascript, Java, Python, C, and Kotlin, as well as HTML,
