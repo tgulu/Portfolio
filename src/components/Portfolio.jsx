@@ -4,7 +4,8 @@ import musicReview from "../assets/portfolio/musicReview.jpg";
 import cameron from "../assets/portfolio/cameron4.jpg";
 import movies from "../assets/portfolio/movies.jpeg";
 import skater from "../assets/portfolio/e-commerce.jpg";
-import bnb from "../assets/portfolio/bnb.jpg";
+import ieuan from "../assets/portfolio/ieuan.jpg";
+// import bnb from "../assets/portfolio/bnb.jpg";
 // import musicAPI from "../assets/portfolio/musicAPI.jpg";
 //import drone from "../assets/portfolio/drone.jpg";
 // import weather from "../assets/portfolio/weather.jpg";
@@ -15,7 +16,7 @@ const Portfolio = () => {
       id: 1,
       child: (
         <>
-          <span className="text-sm">Cameron Nesbitt</span>
+          <span className="text-sm">Cameron Nesbitt Portfolio</span>
         </>
       ),
       src: cameron,
@@ -39,6 +40,18 @@ const Portfolio = () => {
       id: 3,
       child: (
         <>
+          <span className="text-sm">Ieuan Garrish Portfolio</span>
+        </>
+      ),
+      src: ieuan,
+      href: "https://github.com/tgulu/Illustrator-Portfolio",
+      sourceCode: "https://ieuangarrish.com/",
+      style: "shadow-blue-700",
+    },
+    {
+      id: 4,
+      child: (
+        <>
           <span className="text-sm">Skateboard E-Commerce Website </span>
         </>
       ),
@@ -47,9 +60,8 @@ const Portfolio = () => {
       sourceCode: "https://skateby.thabogulu.com",
       style: "shadow-yellow-400",
     },
-
     {
-      id: 4,
+      id: 5,
       child: (
         <>
           <span className="text-sm">Show Time</span>
@@ -59,19 +71,6 @@ const Portfolio = () => {
       href: "https://github.com/tgulu/Show-Time",
       sourceCode: "https://show-time-movies.netlify.app/" ,
       style: "shadow-green-300",
-    },
-
-    {
-      id: 5,
-      child: (
-        <>
-          <span className="text-sm">Hestia Haven</span>
-        </>
-      ),
-      src: bnb,
-      href: "https://github.com/tgulu/Hestia-Haven",
-      sourceCode: " https://tgulu.github.io/Hestia-Haven/",
-      style: "shadow-pink-400",
     },
     {
       id: 6,
@@ -85,6 +84,19 @@ const Portfolio = () => {
       sourceCode: "https://github.com/tgulu/Albums",
       style: "shadow-orange-400",
     },
+
+    // {
+    //   id: 5,
+    //   child: (
+    //     <>
+    //       <span className="text-sm">Hestia Haven</span>
+    //     </>
+    //   ),
+    //   src: bnb,
+    //   href: "https://github.com/tgulu/Hestia-Haven",
+    //   sourceCode: " https://tgulu.github.io/Hestia-Haven/",
+    //   style: "shadow-pink-400",
+    // },
     // {
     //   id: 6,
     //   child: (
