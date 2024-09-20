@@ -17,9 +17,8 @@ const Home = () => {
             Software Developer
           </h5>
           <p className="text-white text-base max-w-md">
-            Driven software developer with a passion for creating efficient and
-            Innovative solutions, seeking next opportunity in a software
-            Engineering role
+            Driven software developer with a passion for crafting visually
+            engaging and user-friendly web experiences and mobile applications
           </p>
           <div>
             <Link
