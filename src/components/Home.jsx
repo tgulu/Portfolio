@@ -19,9 +19,9 @@ const Home = () => {
             Software Developer
           </h1>
 
-          <p className="text-black sm:absolute sm:top-40  items-center sm:items-start w-96 sm:h-96 relative top-96 lg:top-72 text-2xl font-thin ">
+          <p className="text-black sm:absolute sm:top-40 ml-5 lg:ml-0 items-center sm:items-start w-full  lg:w-3/5 sm:h-96 relative top-96 lg:top-72 text-2xl font-thin ">
             Driven software developer with a passion for crafting visually
-            engaging and user-friendly web experiences and mobile applications
+            engaging and user-friendly websites and mobile applications
           </p>
 
           <div>
@@ -30,7 +30,7 @@ const Home = () => {
               //    change to projects when you re-factor portfolio page  to="projects"
               smooth
               duration={500}
-              className="text-white w-fit h-10 px-4 py-3 my-6 flex items-center rounded-md relative top-72 lg:top-10 bg-gradient-to-r from-[#020617] to-[#0a0a0a] hover:scale-110 cursor-pointer group"
+              className="text-white w-fit h-12 px-4 py-3 my-6 flex items-center rounded-md relative top-96 lg:-top-5 bg-gradient-to-r from-[#020617] to-[#0a0a0a] hover:scale-110 cursor-pointer  "
             >
               Projects
             </Link>
