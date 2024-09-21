@@ -6,31 +6,29 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="h-screen w-full bg-gradient-to-b from-white via-[#f9fafb] to-white"
     >
       <div
         name="bio"
-        className="max-w-screen-lg mx-auto flex flex-col items-center justify-center  h-full px-5 md:flex-row"
+        className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-0.5  md:flex-row"
       >
         <div className="flex flex-col justify-center w-auto h-full">
-          <h5 className="lg:flex flex-col text-4xl max-w-md py-8 sm:text-6xl font-float text-white">
+          <h5 className="lg:flex flex-col text-4xl max-w-md py-8 sm:text-6xl font-float text-black">
             Software Developer
           </h5>
-          <p className="text-white text-base max-w-md">
+          <p className="text-black text-base max-w-md">
             Driven software developer with a passion for crafting visually
             engaging and user-friendly web experiences and mobile applications
           </p>
           <div>
             <Link
               to="portfolio"
+              //    change to projects when you re-factor portfolio page  to="projects"
               smooth
               duration={500}
-              className="text-white w-fit h-10 px-4 py-3 my-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-purple-500 hover:scale-110 cursor-pointer group"
+              className="text-white w-fit h-10 px-4 py-3 my-6 flex items-center rounded-md bg-gradient-to-r from-[#020617] to-[#0a0a0a] hover:scale-110 cursor-pointer group"
             >
-              Portfolio
-              <span className="group-hover:rotate-90 duration-300 ">
-                <RxDoubleArrowRight size={15} className="ml-1" />
-              </span>
+              Projects
             </Link>
           </div>
         </div>
@@ -39,7 +37,7 @@ const Home = () => {
           <img
             src={Profile}
             alt="profile pic"
-            className=" rounded-3xl mx-auto max-w-sm max-h-md w-56 md:h-full border-4 border-cyan-200"
+            className=" rounded-3xl mx-auto max-w-sm max-h-md w-56 md:h-full border-2 border-[#0c0a09] "
           />
         </div>
       </div>
