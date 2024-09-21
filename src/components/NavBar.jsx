@@ -52,7 +52,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="drop-shadow-lg flex justify-between items-center w-full h-20 text-black bg-[#fafafa] fixed">
+    <div className="drop-shadow-lg flex justify-between items-center z-30 w-full h-20 text-black bg-[#fafafa] fixed">
       <div className="flex">
         <h1
           className={`text-3xl cursor-pointer hover:scale-105 duration-200 ml-20 ${fonts[fontIndex]}`} // Font change based on fontIndex
@@ -79,25 +79,25 @@ const NavBar = () => {
       {/* Mobile menu toggle button */}
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-7 z-10 hover:scale-125 text-gray-500 md:hidden"
+        className="cursor-pointer pr-7 z-10 hover:scale-125 text-black md:hidden"
       >
-        {nav ? <FaTimes size={20} /> : <FaBars size={20} />}{" "}
+        {nav ? <FaTimes size={35} /> : <FaBars size={30} />}{" "}
         {/* Display close or open icon */}
       </div>
 
       {/* Mobile menu */}
       {nav && (
-        <ul className="flex flex-col justify-center items-center gap-8 font-light absolute top-0 left-0 w-full h-screen bg-[#f9fafb]">
+        <ul className="flex flex-col gap-10 justify-center items-center font-light absolute top-0 left-0 w-full h-screen bg-[#f9fafb]">
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl"
+              className="px-4 cursor-pointer  capitalize py-6 text-4xl"
             >
               <Link
                 onClick={() => setNav(!nav)} // Close menu on link click
                 to={link}
                 smooth
-                duration={500}
+                duration={900}
               >
                 {link}
               </Link>
