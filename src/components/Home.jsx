@@ -30,7 +30,7 @@ const Home = () => {
               //    change to projects when you re-factor portfolio page  to="projects"
               smooth
               duration={500}
-              className="text-white w-fit h-12 px-4 py-3 my-6 flex items-center rounded-md relative top-96 lg:-top-5 bg-gradient-to-r from-[#020617] to-[#0a0a0a] hover:scale-110 cursor-pointer  "
+              className="text-white w-fit h-12 px-4 py-3 my-6 flex items-center rounded-md relative top-96 lg:-top-5 bg-gradient-to-r from-[#020617] to-[#0a0a0a] hover:scale-110 cursor-pointer border-2 border-[#e7e7e7]"
             >
               Projects
             </Link>
