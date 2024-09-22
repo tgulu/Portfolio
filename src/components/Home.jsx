@@ -15,22 +15,26 @@ const Home = () => {
         {/* <h6>Hi, my name is</h6>
         <h1></h1> */}
         <div className="flex flex-col lg:mr-12 justify-center items-center sm:items-start w-auto h-full ">
-          <h1 className="text-5xl relative bottom-10 md:bottom-28 lg:text-7xl font-medium font-float text-black text-center sm:text-left md:mt-5 ">
+          <h1 className="text-5xl relative bottom-10 md:bottom-28 lg:text-7xl font-bold pb-2 font-float text-black text-center sm:text-left md:mb-5 ">
             Software Developer
           </h1>
 
-          <p className="text-black sm:absolute sm:top-40 ml-5 lg:ml-0 items-center sm:items-start w-full sm:w-3/5 sm:h-96 relative top-96 md:top-96  text-2xl font-thin py-18 md:py-14 ">
-            Driven software developer with a passion for crafting visually
-            engaging and user-friendly websites and mobile applications
+          <p className="text-black sm:absolute sm:top-40 ml-5 lg:mt-6 lg:ml-0 items-center w-full sm:w-3/5  relative top-96 md:top-96  text-2xl lg:text-3xl font-thin py-18 md:py-14 ">
+            Hi I'm Thabo Gulu. A passionate software devloper who creates
+            websites and mobile applications
           </p>
+
+          {/* Driven software developer with a passion for crafting visually
+            engaging and user-friendly websites and mobile applications 
+            A driven Front-End and Mobile developer
+             */}
 
           <button>
             <Link
               to="portfolio"
-              //    change to projects when you re-factor portfolio page  to="projects"
               smooth
               duration={500}
-              className="text-white w-fit h-10 px-4 py-3 my-6 flex items-center rounded-md md:left-60  relative top-96 md:top-8 bg-gradient-to-r from-[#020617] to-[#0a0a0a] hover:scale-110 cursor-pointer border-2 border-[#e7e7e7]"
+              className="text-white h-10 w-20 flex relative lg:absolute items-center justify-around rounded-md m-4 top-96 md:top-[90]  bg-[#020617] hover:scale-110 cursor-pointer border-2 border-[#e7e7e7]"
             >
               Projects
             </Link>
