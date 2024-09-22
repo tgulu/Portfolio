@@ -15,9 +15,9 @@ const Homes = () => {
         className="flex lg:max-h-screen max-w-screen-xl mx-auto items-center justify-center h-screen border-4 border-green-700"
       >
         {/* Flex container to align title, bio, and image */}
-        <div className="flex flex-col-reverse md:flex-row gap-4 md:gap-0 items-center md:items-start  md:justify-between w-full p-4 md:p-20">
+        <div className="flex flex-col-reverse md:flex-row gap-4 md:gap-0 border-red-600 border-4 items-center md:items-start  md:justify-between w-ful h-screen md:h-fit p-4 md:p-20">
           {/* Left section: Title and Bio */}
-          <div className="flex-row justify-start border-4 border-red-500 max-w p-5">
+          <div className="flex-row justify-start border-4 border-pink-700  max-w p-5">
             <h1 className="text-5xl lg:text-7xl font-bold pb-2 font-float text-black sm:text-left mb-5">
               Software Developer
             </h1>
@@ -36,7 +36,7 @@ const Homes = () => {
                 </button>
               </div>
             </div>
-            <div className="border-4 border-blue-700 mt-4">
+            <div className="border-4 border-blue-700 mt-4 md:mt-20">
               <p className="text-center text-2xl">Tech Stack</p>
               <ul className="mt-3 flex flex-row gap-7 justify-center">
                 <li>
@@ -46,7 +46,6 @@ const Homes = () => {
                   />
                 </li>
                 <li>
-                  {" "}
                   <img
                     src="https://skillicons.dev/icons?i=html,css"
                     alt="HTML and CSS Icons"
@@ -69,7 +68,7 @@ const Homes = () => {
           </div>
 
           {/* Right section: Profile Image */}
-          <div className="ml-10 flex-shrink-0 border-4 border-pink-800 rounded-2xl">
+          <div className="md:ml-10 m-0 flex-shrink-0 border-4 border-pink-800 rounded-2xl">
             <img
               src={Profile}
               alt="profile pic"
