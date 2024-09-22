@@ -15,9 +15,9 @@ const Homes = () => {
         className="flex lg:max-h-screen max-w-screen-xl mx-auto items-center justify-center h-screen border-4 border-green-700"
       >
         {/* Flex container to align title, bio, and image */}
-        <div className="flex flex-col-reverse md:flex-row gap-4 md:gap-0 border-red-600 border-4 items-center md:items-start  md:justify-between w-ful h-screen md:h-fit p-4 md:p-20">
+        <div className="flex flex-col-reverse md:flex-row gap-4 md:gap-0 border-red-600 border-4 items-center md:items-start  md:justify-between w-full mt-14  p-2 md:p-20">
           {/* Left section: Title and Bio */}
-          <div className="flex-row justify-start border-4 border-pink-700  max-w p-5">
+          <div className="flex-row justify-start border-4 border-orange-400  max-w p-5">
             <h1 className="text-5xl lg:text-7xl font-bold pb-2 font-float text-black sm:text-left mb-5">
               Software Developer
             </h1>
@@ -38,29 +38,23 @@ const Homes = () => {
             </div>
             <div className="border-4 border-blue-700 mt-4 md:mt-20">
               <p className="text-center text-2xl">Tech Stack</p>
-              <ul className="mt-3 flex flex-row gap-7 justify-center">
-                <li>
+              <ul className="mt-3 flex flex-row gap-7 justify-center ">
+                <li className="hover:scale-125 duration-200">
                   <img
-                    src="https://skillicons.dev/icons?i=js,tailwind"
-                    alt="JS and Tailwind Icons"
+                    src="https://skillicons.dev/icons?i=js,kotlin"
+                    alt="JS and Kotlin Icons"
                   />
                 </li>
-                <li>
+                <li className="hover:scale-125 duration-200">
+                  <img
+                    src="https://skillicons.dev/icons?i=react,tailwind"
+                    alt="React and C Icons"
+                  />
+                </li>
+                <li className="hover:scale-125 duration-200">
                   <img
                     src="https://skillicons.dev/icons?i=html,css"
                     alt="HTML and CSS Icons"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="https://skillicons.dev/icons?i=kotlin,androidstudio"
-                    alt="Kotlin and Android Studio Icons"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="https://skillicons.dev/icons?i=react,c"
-                    alt="React and C Icons"
                   />
                 </li>
               </ul>
