@@ -25,14 +25,46 @@ const Homes = () => {
               Hi, I'm Thabo Gulu. A passionate software developer who creates
               websites and mobile applications.
             </p>
-            <div className="flex gap-5 mt-10 justify-center items-center md:justify-start">
-              <SlSocialLinkedin size={30} />
-              <VscGithub size={30} />
-              <button className="text-white h-12 w-20 flex justify-around items-center rounded-md bg-[#020617] hover:scale-110 cursor-pointer border-2 border-[#e7e7e7]">
-                <Link to="portfolio" smooth duration={500}>
-                  Projects
-                </Link>
-              </button>
+            <div className="flex flex-wrap gap-5 mt-10 justify-center items-center md:justify-start">
+              <div className="flex gap-5 items-center">
+                <SlSocialLinkedin size={30} />
+                <VscGithub size={30} />
+                <button className="text-white h-12 w-20 flex justify-around items-center rounded-md bg-[#020617] hover:scale-110 cursor-pointer border-2 border-[#e7e7e7]">
+                  <Link to="portfolio" smooth duration={500}>
+                    Projects
+                  </Link>
+                </button>
+              </div>
+            </div>
+            <div className="border-4 border-blue-700 mt-4">
+              <p className="text-center text-2xl">Tech Stack</p>
+              <ul className="mt-3 flex flex-row gap-7 justify-center">
+                <li>
+                  <img
+                    src="https://skillicons.dev/icons?i=js,tailwind"
+                    alt="JS and Tailwind Icons"
+                  />
+                </li>
+                <li>
+                  {" "}
+                  <img
+                    src="https://skillicons.dev/icons?i=html,css"
+                    alt="HTML and CSS Icons"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://skillicons.dev/icons?i=kotlin,androidstudio"
+                    alt="Kotlin and Android Studio Icons"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://skillicons.dev/icons?i=react,c"
+                    alt="React and C Icons"
+                  />
+                </li>
+              </ul>
             </div>
           </div>
 
