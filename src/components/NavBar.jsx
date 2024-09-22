@@ -6,26 +6,16 @@ const NavBar = () => {
   const [nav, setNav] = useState(false); // State to toggle mobile navigation menu
   const [fontIndex, setFontIndex] = useState(0); // State to track the font index for rotating fonts
 
-  const fonts = [
-    // Array of fonts to rotate between; only "font-signature" is currently active
-    // "font-jazz",
-    // "font-rise",
-    "font-signature",
-    // "font-style",
-    // "font-float",
-    // "font-sedgwick",
-    // "font-lilita",
-    // "font-neue",
-  ];
+  const fonts = ["font-jazz", "font-rise", "font-signature", "font-float"];
 
-  // Uncomment below to rotate fonts at regular intervals
-  // useEffect(() => {
-  //   const intervalId = setInterval(() => {
-  //     setFontIndex((fontIndex + 1) % fonts.length); // Update the font index at regular intervals
-  //   }, 1500);
+  //  rotate fonts at regular intervals
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setFontIndex((fontIndex + 1) % fonts.length); // Update the font index at regular intervals
+    }, 3000);
 
-  //   return () => clearInterval(intervalId); // Cleanup on unmount
-  // }, [fontIndex, fonts.length]);
+    return () => clearInterval(intervalId); // Cleanup on unmount
+  }, [fontIndex, fonts.length]);
 
   const links = [
     // Navigation links for scrolling to different sections of the page
@@ -65,10 +55,9 @@ const NavBar = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-signature text-black hover:scale-125 duration-200"
+            className="px-7 cursor-pointer capitalize font-signature text-black hover:scale-125 duration-200"
           >
             <Link to={link} smooth duration={200}>
-              {" "}
               {/* Smooth scroll for the link */}
               {link}
             </Link>
