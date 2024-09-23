@@ -170,37 +170,39 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800  w-full text-white md:h-screen"
+      className="bg-fuchsia-100 h-screen w-full text-white "
     >
+      {/*       className="bg-[#f9f9f9] h-screen w-full text-white md:h-screen" */}
+
       {/* Button to toggle between web-projects and android  */}
-      <button
+      {/* <button
         className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-all"
         onClick={() => setWebProjects(!showWebProjects)}
       >
         {showWebProjects ? "Web Projects" : "Android"}
-      </button>
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="">
-          <p className="pt-20 font-float mt-0 mb-4 text-4xl ">
+      </button> */}
+      <div className="max-w-screen-xl p-4 mx-auto  flex flex-col border-4 border-green-600 justify-center h-screen">
+        <div name="project-cards">
+          {/* <p className="pt-20 font-float mt-0 mb-4 text-4xl ">
             <span className="border-b-2 white">Portfolio </span>
-          </p>
+          </p> */}
         </div>
 
         <div
           name="card strcuture"
-          className="pt-4 grid sm:grid-cols-2 md:grid-cols-3 gap-6 px-12 sm:px-0"
+          className="p-2 grid border-4 border-red-600 h-screen md:h-[300px] lg:h-[800px] grid-rows-1 md:grid-cols-3 gap-4"
         >
           {portfolios.map(({ id, child, src, href, style, sourceCode }) => (
-            <div key={id} className={`shadow-md  rounded-lg ${style}`}>
+            <div key={id} className={`shadow-md h-[80%]  rounded-lg ${style}`}>
               <a href={sourceCode} target="_blank" rel="noopener noreferrer">
                 <img
                   src={src}
                   alt=""
-                  className="rounded-md duration-200 hover:scale-125"
+                  className="rounded-md duration-200 h-20 md:h-[85%]  flex justify-center items-center hover:scale-125 w-[100px] md:w-[900px] lg:w-[1200px] "
                 />
               </a>
-              <div className="flex items-center justify-center">
-                <button className="w-1/8 px-2 justify-center py-1/8 m-4 duration-200 hover:scale-110">
+              <div className="flex items-center justify-center h-9">
+                <button className="w-1/8 px-2 justify-center duration-200 hover:scale-110">
                   <a href={href} target="_blank" rel="noopener noreferrer">
                     Code: {child}
                   </a>
