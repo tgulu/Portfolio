@@ -190,18 +190,21 @@ const Portfolio = () => {
 
         <div
           name="card strcuture"
-          className="p-2 grid border-4 border-red-600 h-screen md:h-[300px] lg:h-[800px] grid-rows-1 md:grid-cols-3 gap-4"
+          className="p-2 grid border-4 border-red-600 h-screen md:h-[300px] lg:h-[800px] grid-rows-1 md:grid-cols-3 gap-4 justify-center items-center"
         >
           {portfolios.map(({ id, child, src, href, style, sourceCode }) => (
-            <div key={id} className={`shadow-md h-[80%]  rounded-lg ${style}`}>
+            <div
+              key={id}
+              className={`shadow-md h-[80%] flex md:block rounded-lg ${style}`}
+            >
               <a href={sourceCode} target="_blank" rel="noopener noreferrer">
                 <img
                   src={src}
                   alt=""
-                  className="rounded-md duration-200 h-20 md:h-[85%]  flex justify-center items-center hover:scale-125 w-[100px] md:w-[900px] lg:w-[1200px] "
+                  className="rounded-md duration-200 h-20 md:h-[75%]  flex justify-center items-center hover:scale-125 w-[100px] md:w-[900px] lg:w-[1200px] "
                 />
               </a>
-              <div className="flex items-center justify-center h-9">
+              <div className="flex items-center justify-center h-20">
                 <button className="w-1/8 px-2 justify-center duration-200 hover:scale-110">
                   <a href={href} target="_blank" rel="noopener noreferrer">
                     Code: {child}
