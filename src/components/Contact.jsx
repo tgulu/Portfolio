@@ -43,7 +43,7 @@ const Contact = () => {
               rows="8"
               className="p-2 bg-transparent border-2 rounded-md focus:outline-none"
             ></textarea>
-            <button className="bg-gradient-to-b from-slate-700 to-slate-950 px-6 py-3 mt-2  mx-auto flex items-center rounded-md hover:scale-110 duration-300 text-white">
+            <button className="bg-gradient-to-b from-slate-700 to-slate-950 px-6 py-3 mt-2  mx-auto flex items-center rounded-md border-2 border-black hover:scale-110 duration-300 text-white">
               Submit to Talk
             </button>
           </form>
