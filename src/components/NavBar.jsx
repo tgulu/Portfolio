@@ -42,7 +42,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="drop-shadow-lg flex justify-between items-center z-30 w-full h-20 text-black bg-[#fafafa] fixed">
+    <div className="drop-shadow-lg flex justify-between items-center z-30 w-full h-12 text-black bg-[#fafafa] fixed">
       <div className="flex">
         <h1
           className={`text-3xl cursor-pointer hover:scale-105 duration-200 ml-20 ${fonts[fontIndex]}`} // Font change based on fontIndex
