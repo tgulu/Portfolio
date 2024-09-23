@@ -1,5 +1,4 @@
 import Profile from "../assets/profile.png";
-import { RxDoubleArrowRight } from "react-icons/rx";
 import { Link } from "react-scroll";
 
 const Home = () => {

@@ -1,30 +1,29 @@
 import Profile from "../assets/profile.png";
-import { RxDoubleArrowRight } from "react-icons/rx";
 import { Link } from "react-scroll";
 import { VscGithub } from "react-icons/vsc";
 import { SlSocialLinkedin } from "react-icons/sl";
 
 const Homes = () => {
-  const links = [
-    {
-      id: 1,
-      child: (
-        <>
-          <SlSocialLinkedin size={30} />
-        </>
-      ),
-      href: "https://linkedin.com/in/thabo-gulu",
-    },
-    {
-      id: 2,
-      child: (
-        <>
-          <VscGithub size={30} />
-        </>
-      ),
-      href: "https://github.com/tgulu",
-    },
-  ];
+  // const links = [
+  //   {
+  //     id: 1,
+  //     child: (
+  //       <>
+  //         <SlSocialLinkedin size={30} />
+  //       </>
+  //     ),
+  //     href: "https://linkedin.com/in/thabo-gulu",
+  //   },
+  //   {
+  //     id: 2,
+  //     child: (
+  //       <>
+  //         <VscGithub size={30} />
+  //       </>
+  //     ),
+  //     href: "https://github.com/tgulu",
+  //   },
+  // ];
 
   return (
     <div
