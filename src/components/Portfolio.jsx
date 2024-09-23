@@ -18,7 +18,7 @@ const Portfolio = () => {
       id: 1,
       child: (
         <>
-          <span className="text-sm">Cameron Nesbitt Portfolio</span>
+          <span className="text-sm">Cameron Nesbitt</span>
         </>
       ),
       src: cameron,
@@ -30,7 +30,7 @@ const Portfolio = () => {
       id: 2,
       child: (
         <>
-          <span className="text-sm">Photography Portfolio</span>
+          <span className="text-sm">Photography </span>
         </>
       ),
       src: photography,
@@ -42,7 +42,7 @@ const Portfolio = () => {
       id: 3,
       child: (
         <>
-          <span className="text-sm">Ieuan Garrish Portfolio</span>
+          <span className="text-sm">Ieuan Garrish</span>
         </>
       ),
       src: ieuan,
@@ -54,7 +54,7 @@ const Portfolio = () => {
       id: 4,
       child: (
         <>
-          <span className="text-sm">Skateboard E-Commerce Website </span>
+          <span className="text-sm">Skateboard E-Commerce</span>
         </>
       ),
       src: skater,
@@ -78,7 +78,7 @@ const Portfolio = () => {
       id: 6,
       child: (
         <>
-          <span className="text-sm">Music Review Website</span>
+          <span className="text-sm">Music Review</span>
         </>
       ),
       src: musicReview,
@@ -170,10 +170,8 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-fuchsia-100 h-screen w-full text-white "
+      className="bg-[#f9f9f9] h-screen w-full text-white md:h-screen"
     >
-      {/*       className="bg-[#f9f9f9] h-screen w-full text-white md:h-screen" */}
-
       {/* Button to toggle between web-projects and android  */}
       {/* <button
         className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-all"
@@ -181,7 +179,7 @@ const Portfolio = () => {
       >
         {showWebProjects ? "Web Projects" : "Android"}
       </button> */}
-      <div className="max-w-screen-xl p-4 mx-auto  flex flex-col border-4 border-green-600 justify-center h-screen">
+      <div className="max-w-screen-xl p-4 mx-auto flex flex-col justify-center h-screen">
         <div name="project-cards">
           {/* <p className="pt-20 font-float mt-0 mb-4 text-4xl ">
             <span className="border-b-2 white">Portfolio </span>
@@ -190,22 +188,22 @@ const Portfolio = () => {
 
         <div
           name="card strcuture"
-          className="p-2 grid border-4 border-red-600 h-screen md:h-[300px] lg:h-[800px] grid-rows-1 md:grid-cols-3 gap-4 justify-center items-center"
+          className="p-2 grid h-screen md:h-[300px] lg:h-[800px] grid-rows-1 md:grid-cols-3 gap-4 justify-center items-center"
         >
           {portfolios.map(({ id, child, src, href, style, sourceCode }) => (
             <div
               key={id}
-              className={`shadow-md h-[80%] flex md:block rounded-lg ${style}`}
+              className={`shadow-md h-[80%] bg-slate-900 border-2 border-black flex md:block rounded-lg ${style}`}
             >
               <a href={sourceCode} target="_blank" rel="noopener noreferrer">
                 <img
                   src={src}
                   alt=""
-                  className="rounded-md duration-200 h-20 md:h-[75%]  flex justify-center items-center hover:scale-125 w-[100px] md:w-[900px] lg:w-[1200px] "
+                  className="rounded-md duration-200 h-24 md:h-[75%]  flex justify-center items-center hover:scale-125 w-[140px] md:w-[900px] lg:w-[1200px] "
                 />
               </a>
               <div className="flex items-center justify-center h-20">
-                <button className="w-1/8 px-2 justify-center duration-200 hover:scale-110">
+                <button className="w-1/8 px-2 justify-center duration-200 hover:scale-110 text-sm">
                   <a href={href} target="_blank" rel="noopener noreferrer">
                     Code: {child}
                   </a>
