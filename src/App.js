@@ -11,12 +11,8 @@ function App() {
   return (
     <div>
       <NavBar />
-      {/* <Home /> */}
       <Homes />
-      {/* <SocialLinks /> */}
-      {/* <About /> */}
       <Portfolio />
-      {/* <Experience /> */}
       <Contact />
     </div>
   );
