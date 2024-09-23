@@ -1,18 +1,11 @@
-// import React, { useState } from "react";
 import photography from "../assets/portfolio/shotby.png";
 import musicReview from "../assets/portfolio/musicReview.jpg";
 import cameron from "../assets/portfolio/cameron4.jpg";
 import movies from "../assets/portfolio/movies.jpeg";
 import skater from "../assets/portfolio/e-commerce.jpg";
 import ieuan from "../assets/portfolio/ieuan.jpg";
-// import bnb from "../assets/portfolio/bnb.jpg";
-// import musicAPI from "../assets/portfolio/musicAPI.jpg";
-// import drone from "../assets/portfolio/drone.jpg";
-// import weather from "../assets/portfolio/weather.jpg";
 
 const Portfolio = () => {
-  // const [showWebProjects, setWebProjects] = useState(true);
-
   const portfolios = [
     {
       id: 1,
@@ -87,85 +80,6 @@ const Portfolio = () => {
       style: "shadow-orange-400",
     },
   ];
-
-  // const android = [
-  //   {
-  //     id: 1,
-  //     child: (
-  //       <>
-  //         <span className="text-sm">Hestia Haven</span>
-  //       </>
-  //     ),
-  //     src: bnb,
-  //     href: "https://github.com/tgulu/Hestia-Haven",
-  //     sourceCode: " https://tgulu.github.io/Hestia-Haven/",
-  //     style: "shadow-pink-400",
-  //   },
-  //   {
-  //     id: 2,
-  //     child: (
-  //       <>
-  //         <span className="text-sm">Weather Website</span>
-  //       </>
-  //     ),
-  //     src: weather,
-  //     href: "https://github.com/tgulu/Weather",
-  //     sourceCode: "https://tgulu.github.io/Weather/",
-  //     style: "shadow-cyan-400",
-  //   },
-
-  //   // {
-  //   //   id: 6,
-  //   //   child: (
-  //   //     <>
-  //   //       <span className="text-sm">Computer Science Trivia Website</span>
-  //   //     </>
-  //   //   ),
-  //   //   src: quiz,
-  //   //   href: "https://github.com/tgulu/Computer-Science-Trivia-Quiz",
-  //   //   sourceCode: "https://computerscience-trivia.netlify.app/",
-  //   //   style: "shadow-white",
-  //   // },
-
-  //   {
-  //     id: 2,
-  //     child: (
-  //       <>
-  //         <span className="text-sm">Android Music Display </span>
-  //       </>
-  //     ),
-  //     src: musicAPI,
-  //     href: "https://github.com/tgulu/AppleMusic",
-  //     sourceCode: "https://github.com/tgulu/AppleMusic",
-  //     style: "shadow-pink-400",
-  //   },
-
-  //   {
-  //     id: 3,
-  //     child: (
-  //       <>
-  //         <span className="text-sm">Drone</span>
-  //       </>
-  //     ),
-  //     src: drone,
-  //     href: "https://github.com/tgulu/Drone",
-  //     sourceCode: "https://github.com/tgulu/Drone",
-  //     style: "shadow-pink-600",
-  //   },
-
-  //   // {
-  //   //   id: 4,
-  //   //   child: (
-  //   //     <>
-  //   //       <span className="text-sm">Android Messenger</span>
-  //   //     </>
-  //   //   ),
-  //   //   src: messageApp,
-  //   //   href: "https://github.com/tgulu/Messenger-Chat-App",
-  //   //   sourceCode: "https://github.com/tgulu/Messenger-Chat-App",
-  //   //   style: "shadow-green-400",
-  //   // },
-  // ];
 
   return (
     <div
