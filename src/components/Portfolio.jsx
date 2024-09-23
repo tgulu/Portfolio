@@ -1,14 +1,14 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import photography from "../assets/portfolio/shotby.png";
 import musicReview from "../assets/portfolio/musicReview.jpg";
 import cameron from "../assets/portfolio/cameron4.jpg";
 import movies from "../assets/portfolio/movies.jpeg";
 import skater from "../assets/portfolio/e-commerce.jpg";
 import ieuan from "../assets/portfolio/ieuan.jpg";
-import bnb from "../assets/portfolio/bnb.jpg";
-import musicAPI from "../assets/portfolio/musicAPI.jpg";
-import drone from "../assets/portfolio/drone.jpg";
-import weather from "../assets/portfolio/weather.jpg";
+// import bnb from "../assets/portfolio/bnb.jpg";
+// import musicAPI from "../assets/portfolio/musicAPI.jpg";
+// import drone from "../assets/portfolio/drone.jpg";
+// import weather from "../assets/portfolio/weather.jpg";
 
 const Portfolio = () => {
   // const [showWebProjects, setWebProjects] = useState(true);
