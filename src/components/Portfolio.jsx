@@ -103,7 +103,7 @@ const Portfolio = () => {
 
         <div
           name="card strcuture"
-          className="p-2 grid h-screen md:h-[300px] lg:h-[800px]  grid-rows-6 grid-cols-none md:grid-rows-none md:grid-cols-3 gap-4 justify-center items-center"
+          className="p-2 grid h-screen md:h-[300px] lg:h-[800px] mt-24 md:mt-0  grid-rows-6 grid-cols-none md:grid-rows-none md:grid-cols-3 gap-4 justify-center items-center"
         >
           {portfolios.map(({ id, child, src, href, style, sourceCode }) => (
             <div
