@@ -7,14 +7,14 @@ const Homes = () => {
   return (
     <div
       name="home"
-      className="h-screen flex w-full bg-gradient-to-b from-white via-[#f9fafb] to-white"
+      className="h-screen flex justify-between w-full bg-gradient-to-b from-white via-[#f9fafb] to-white"
     >
       <div
         name="bio"
         className="flex lg:max-h-screen max-w-screen-xl mx-auto items-center justify-center h-screen "
       >
         {/* Flex container to align title, bio, and image */}
-        <div className="flex flex-col-reverse md:flex-row gap-4 md:gap-0 items-center md:items-start  md:justify-between w-full mt-14  p-2 md:p-20">
+        <div className="flex flex-col-reverse md:flex-row gap-4 md:gap-0 items-center md:items-start  md:justify-between w-full mt-[-50px] md:mt-14  p-1 md:p-20">
           {/* Left section: Title and Bio */}
           <div className="flex-row justify-start  max-w p-5">
             <h1 className="text-3xl lg:text-7xl font-bold pb-2 font-float text-black sm:text-left mb-5">
