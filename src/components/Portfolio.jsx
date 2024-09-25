@@ -114,7 +114,7 @@ const Portfolio = () => {
                 <img
                   src={src}
                   alt=""
-                  className="rounded-md duration-200 h-[95%] md:h-[75%]  flex   items-center hover:scale-125 w-[95%] md:w-[900px] lg:w-[1200px] "
+                  className="rounded-md duration-200 h-full md:h-[69%]  flex   items-center hover:scale-125 w-full md:w-[900px] lg:w-[1200px] "
                 />
               </a>
               <div className="flex items-center justify-center h-20">
