@@ -13,8 +13,8 @@ const Contact = () => {
           </p>
 
           <p className="py-2">
-            Want to learn more about my experience and skills as a developer?
-            Fill out the form below to get in touch and start the conversation.
+            Want to collaborate or discuss a project idea? Fill out the form
+            below, and let’s bring your vision to life!
           </p>
         </div>
         <div className="flex justify-center items-center">
