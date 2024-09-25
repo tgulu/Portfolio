@@ -30,7 +30,7 @@ const Portfolio = () => {
       src: photography,
       href: "https://github.com/tgulu/Photography",
       sourceCode: "https://thabogulu.com",
-      style: "shadow-purple-400",
+      style: "shadow-purple-500",
     },
     {
       id: 3,
@@ -42,7 +42,7 @@ const Portfolio = () => {
       src: ieuan,
       href: "https://github.com/tgulu/Illustrator-Portfolio",
       sourceCode: "https://ieuangarrish.com/",
-      style: "shadow-blue-500",
+      style: "shadow-green-400",
     },
     {
       id: 4,
@@ -54,7 +54,7 @@ const Portfolio = () => {
       src: skater,
       href: "https://github.com/tgulu/Skateboard-E-Commerce ",
       sourceCode: "https://skateby.thabogulu.com",
-      style: "shadow-yellow-400",
+      style: "shadow-orange-600",
     },
     {
       id: 5,
@@ -66,7 +66,7 @@ const Portfolio = () => {
       src: movies,
       href: "https://github.com/tgulu/Show-Time",
       sourceCode: "https://show-time-movies.netlify.app/",
-      style: "shadow-green-300",
+      style: "shadow-blue-500",
     },
     {
       id: 6,
@@ -85,7 +85,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-[#f9f9f9] h-screen w-full text-white md:h-screen"
+      className="bg-[#f9f9f9] h-screen w-full text-white md:h-screen flex justify-center items-center"
     >
       {/* Button to toggle between web-projects and android  */}
       {/* <button
@@ -103,18 +103,18 @@ const Portfolio = () => {
 
         <div
           name="card strcuture"
-          className="p-2 grid h-screen md:h-[300px] lg:h-[800px] grid-rows-6 grid-cols-none md:grid-rows-none md:grid-cols-3 gap-4 justify-center items-center"
+          className="p-2 grid h-screen md:h-[300px] lg:h-[800px]  grid-rows-6 grid-cols-none md:grid-rows-none md:grid-cols-3 gap-4 justify-center items-center"
         >
           {portfolios.map(({ id, child, src, href, style, sourceCode }) => (
             <div
               key={id}
-              className={`shadow-md h-[100%] md:h-[90%] bg-slate-900 border-4 border-black flex md:block rounded-lg ${style}`}
+              className={`shadow-lg h-[100%] md:h-[90%] bg-zinc-800 border-4 border-zinc-950 flex justify-start md:block rounded-lg ${style}`}
             >
               <a href={sourceCode} target="_blank" rel="noopener noreferrer">
                 <img
                   src={src}
                   alt=""
-                  className="rounded-md duration-200 h-20 md:h-[75%]  flex justify-center items-center hover:scale-125 w-[90px] md:w-[900px] lg:w-[1200px] "
+                  className="rounded-md duration-200 h-[95%] md:h-[75%]  flex   items-center hover:scale-125 w-[95%] md:w-[900px] lg:w-[1200px] "
                 />
               </a>
               <div className="flex items-center justify-center h-20">
