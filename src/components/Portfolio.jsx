@@ -1,9 +1,9 @@
 import photography from "../assets/portfolio/shotby.png";
-import musicReview from "../assets/portfolio/musicReview.jpg";
 import cameron from "../assets/portfolio/cameron4.jpg";
 import movies from "../assets/portfolio/movies.jpeg";
 import skater from "../assets/portfolio/e-commerce.jpg";
 import ieuan from "../assets/portfolio/ieuan.jpg";
+import musicAPI from "../assets/portfolio/musicAPI.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -19,6 +19,7 @@ const Portfolio = () => {
       sourceCode: "https://cameronnesbitt.com/",
       style: "shadow-orange-400",
     },
+
     {
       id: 2,
       child: (
@@ -41,7 +42,7 @@ const Portfolio = () => {
       src: ieuan,
       href: "https://github.com/tgulu/Illustrator-Portfolio",
       sourceCode: "https://ieuangarrish.com/",
-      style: "shadow-blue-700",
+      style: "shadow-blue-500",
     },
     {
       id: 4,
@@ -71,13 +72,13 @@ const Portfolio = () => {
       id: 6,
       child: (
         <>
-          <span className="text-sm">Music Review</span>
+          <span className="text-sm">Android Music Display </span>
         </>
       ),
-      src: musicReview,
-      href: "https://github.com/tgulu/Albums",
-      sourceCode: "https://github.com/tgulu/Albums",
-      style: "shadow-orange-400",
+      src: musicAPI,
+      href: "https://github.com/tgulu/AppleMusic",
+      sourceCode: "https://github.com/tgulu/AppleMusic",
+      style: "shadow-pink-400",
     },
   ];
 
@@ -102,18 +103,18 @@ const Portfolio = () => {
 
         <div
           name="card strcuture"
-          className="p-2 grid h-screen md:h-[300px] lg:h-[800px] grid-rows-1 md:grid-cols-3 gap-4 justify-center items-center"
+          className="p-2 grid h-screen md:h-[300px] lg:h-[800px] grid-rows-6 grid-cols-none md:grid-rows-none md:grid-cols-3 gap-4 justify-center items-center"
         >
           {portfolios.map(({ id, child, src, href, style, sourceCode }) => (
             <div
               key={id}
-              className={`shadow-md h-[80%] bg-slate-900 border-2 border-black flex md:block rounded-lg ${style}`}
+              className={`shadow-md h-[100%] md:h-[90%] bg-slate-900 border-4 border-black flex md:block rounded-lg ${style}`}
             >
               <a href={sourceCode} target="_blank" rel="noopener noreferrer">
                 <img
                   src={src}
                   alt=""
-                  className="rounded-md duration-200 h-24 md:h-[75%]  flex justify-center items-center hover:scale-125 w-[140px] md:w-[900px] lg:w-[1200px] "
+                  className="rounded-md duration-200 h-20 md:h-[75%]  flex justify-center items-center hover:scale-125 w-[90px] md:w-[900px] lg:w-[1200px] "
                 />
               </a>
               <div className="flex items-center justify-center h-20">
