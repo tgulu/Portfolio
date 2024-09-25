@@ -4,27 +4,6 @@ import { VscGithub } from "react-icons/vsc";
 import { SlSocialLinkedin } from "react-icons/sl";
 
 const Homes = () => {
-  // const links = [
-  //   {
-  //     id: 1,
-  //     child: (
-  //       <>
-  //         <SlSocialLinkedin size={30} />
-  //       </>
-  //     ),
-  //     href: "https://linkedin.com/in/thabo-gulu",
-  //   },
-  //   {
-  //     id: 2,
-  //     child: (
-  //       <>
-  //         <VscGithub size={30} />
-  //       </>
-  //     ),
-  //     href: "https://github.com/tgulu",
-  //   },
-  // ];
-
   return (
     <div
       name="home"
@@ -41,9 +20,8 @@ const Homes = () => {
             <h1 className="text-5xl lg:text-7xl font-bold pb-2 font-float text-black sm:text-left mb-5">
               Software Developer
             </h1>
-            <p className="text-lg">
-              Hi, I'm Thabo Gulu. A passionate software developer who creates
-              websites and mobile applications.
+            <p class="bio" className="text-lg">
+              Hi, I'm Thabo Gulu, a passionate front-end developer.
             </p>
             <div className="flex flex-wrap gap-5 mt-10 justify-center items-center md:justify-start">
               <div className="flex gap-5 items-center">
@@ -51,6 +29,7 @@ const Homes = () => {
                   href="https://linkedin.com/in/thabo-gulu"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className=" hover:scale-150"
                 >
                   <SlSocialLinkedin size={30} />
                 </a>
@@ -59,26 +38,12 @@ const Homes = () => {
                   href="https://github.com/tgulu"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="hover:scale-150"
                 >
                   <VscGithub size={30} />
                 </a>
 
-                {/* <ul>
-                  {links.map(({ id, href, child }) => (
-                    <li key={id} className={"gap-5"}>
-                      <a
-                        href={href}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="flex-row"
-                      >
-                        {child}
-                      </a>
-                    </li>
-                  ))}
-                </ul> */}
-
-                <button className="text-white h-12 w-20 flex justify-around items-center rounded-md bg-[#020617] hover:scale-110 cursor-pointer border-2 border-[#e7e7e7]">
+                <button className="text-white h-12 w-20 flex  justify-around items-center rounded-md bg-[#020617] hover:scale-125 cursor-pointer border-2 border-[#e7e7e7]">
                   <Link to="portfolio" smooth duration={500}>
                     Projects
                   </Link>
@@ -88,7 +53,7 @@ const Homes = () => {
             <div className="mt-4 md:mt-20">
               <p className="text-center text-2xl">Tech Stack</p>
 
-              <ul className="mt-3 flex flex-row gap-5 md:gap-24 justify-center ">
+              <ul className="mt-3 flex flex-row gap-5 md:gap-10 justify-center">
                 <li className="hover:scale-125 duration-200">
                   <img
                     src="https://skillicons.dev/icons?i=js,kotlin"
@@ -112,11 +77,11 @@ const Homes = () => {
           </div>
 
           {/* Right section: Profile Image */}
-          <div className="md:ml-10 m-0 flex-shrink-0  rounded-2xl">
+          <div className="md:ml-10 m-0 flex-shrink-0 rounded-2xl">
             <img
               src={Profile}
               alt="profile pic"
-              className="rounded-2xl lg:w-60 w-52 h-auto border-2 border-[#060302]"
+              className="rounded-2xl animate-morph shadow-xl shadow-cyan-300/95  lg:w-60 h-52 w-40 md:h-80 md:w-60 "
             />
           </div>
         </div>
