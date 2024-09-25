@@ -45,7 +45,7 @@ const Homes = () => {
 
                 <button className="text-white h-12 w-20 flex  justify-around items-center rounded-md bg-[#020617] hover:scale-125 cursor-pointer border-2 border-[#e7e7e7]">
                   <Link to="portfolio" smooth duration={500}>
-                    Projects
+                    Portfolio
                   </Link>
                 </button>
               </div>
