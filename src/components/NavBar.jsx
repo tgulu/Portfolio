@@ -31,10 +31,6 @@ const NavBar = () => {
       id: 3,
       link: "portfolio",
     },
-    // {
-    //   id: 4,
-    //   link: "experience", // Optional link, currently commented out
-    // },
     {
       id: 5,
       link: "contact",
