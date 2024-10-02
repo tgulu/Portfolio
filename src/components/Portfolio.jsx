@@ -3,7 +3,6 @@ import cameron from "../assets/portfolio/cameron4.jpg";
 import movies from "../assets/portfolio/movies.jpeg";
 import skater from "../assets/portfolio/e-commerce.jpg";
 import ieuan from "../assets/portfolio/ieuan.jpg";
-import musicAPI from "../assets/portfolio/musicAPI.jpg";
 import messageApp from "../assets/portfolio/messageApp.jpg";
 
 const Portfolio = () => {
