@@ -18,7 +18,7 @@ const Homes = () => {
           {/* Left section: Title and Bio */}
           <div className="flex-row justify-start  max-w p-5">
             <h1 className="text-3xl lg:text-7xl font-bold pb-2 font-float text-black sm:text-left mb-5">
-              Hi, How Are You
+              Hi, How Are You?
             </h1>
             <p class="bio" className="text-lg">
               I'm Thabo Gulu, a passionate software developer.
