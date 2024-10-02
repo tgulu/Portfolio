@@ -4,6 +4,7 @@ import movies from "../assets/portfolio/movies.jpeg";
 import skater from "../assets/portfolio/e-commerce.jpg";
 import ieuan from "../assets/portfolio/ieuan.jpg";
 import musicAPI from "../assets/portfolio/musicAPI.jpg";
+import messageApp from "../assets/portfolio/messageApp.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -52,7 +53,7 @@ const Portfolio = () => {
         </>
       ),
       src: skater,
-      href: "https://github.com/tgulu/Skateboard-E-Commerce ",
+      href: "https://github.com/tgulu/Skateboard-E-Commerce",
       sourceCode: "https://skateby.thabogulu.com",
       style: "shadow-orange-600",
     },
@@ -72,12 +73,12 @@ const Portfolio = () => {
       id: 6,
       child: (
         <>
-          <span className="text-sm">Android Music Display </span>
+          <span className="text-sm">Android Messenger</span>
         </>
       ),
-      src: musicAPI,
-      href: "https://github.com/tgulu/AppleMusic",
-      sourceCode: "https://github.com/tgulu/AppleMusic",
+      src: messageApp,
+      href: "https://github.com/tgulu/Messenger-Chat-App",
+      sourceCode: "https://github.com/tgulu/Messenger-Chat-App",
       style: "shadow-pink-400",
     },
   ];
