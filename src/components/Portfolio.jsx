@@ -108,17 +108,17 @@ const Portfolio = () => {
           {portfolios.map(({ id, child, src, href, style, sourceCode }) => (
             <div
               key={id}
-              className={`shadow-lg h-[100%] md:h-[90%] bg-zinc-800 border-4 border-zinc-950 flex justify-start md:block rounded-lg ${style}`}
+              className={`group shadow-lg h-[100%] md:h-[90%] bg-zinc-800 border-4 border-zinc-950 flex justify-start md:block rounded-lg transition-all ease-out duration-500 ${style}`}
             >
               <a href={sourceCode} target="_blank" rel="noopener noreferrer">
                 <img
                   src={src}
                   alt=""
-                  className="rounded-md duration-200 h-full md:h-[69%]  flex   items-center hover:scale-125 w-full md:w-[900px] lg:w-[1200px] "
+                  className="rounded-md duration-200 h-full md:h-[69%] flex items-center hover:scale-95 w-full md:w-[900px] lg:w-[1200px] "
                 />
               </a>
               <div className="flex items-center justify-center h-20">
-                <button className="w-1/8 px-2 justify-center duration-200 hover:scale-110 text-sm">
+                <button className="w-1/8 px-2 justify-center duration-200 hover:scale-105 text-sm">
                   <a href={href} target="_blank" rel="noopener noreferrer">
                     Code: {child}
                   </a>
