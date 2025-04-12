@@ -3,12 +3,24 @@ import cameron from "../assets/portfolio/cameron4.jpg";
 import movies from "../assets/portfolio/movies.jpeg";
 import skater from "../assets/portfolio/e-commerce.jpg";
 import ieuan from "../assets/portfolio/ieuan.jpg";
-import messageApp from "../assets/portfolio/messageApp.jpg";
+import deadwax from "../assets/portfolio/deadwax.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      child: (
+        <>
+          <span className="text-sm">The Green House Project</span>
+        </>
+      ),
+      src: deadwax,
+      href: "https://github.com/tgulu/Green-House-Projects",
+      sourceCode: "https://greenhouseprojects.space/",
+      style: "shadow-orange-400",
+    },
+    {
+      id: 2,
       child: (
         <>
           <span className="text-sm">Cameron Nesbitt</span>
@@ -21,10 +33,10 @@ const Portfolio = () => {
     },
 
     {
-      id: 2,
+      id: 3,
       child: (
         <>
-          <span className="text-sm">Photography </span>
+          <span className="text-sm">Artist Portfolio</span>
         </>
       ),
       src: photography,
@@ -33,7 +45,7 @@ const Portfolio = () => {
       style: "shadow-purple-500",
     },
     {
-      id: 3,
+      id: 4,
       child: (
         <>
           <span className="text-sm">Ieuan Garrish</span>
@@ -45,7 +57,7 @@ const Portfolio = () => {
       style: "shadow-green-400",
     },
     {
-      id: 4,
+      id: 5,
       child: (
         <>
           <span className="text-sm">Skateboard E-Commerce</span>
@@ -57,7 +69,7 @@ const Portfolio = () => {
       style: "shadow-orange-600",
     },
     {
-      id: 5,
+      id: 6,
       child: (
         <>
           <span className="text-sm">Show Time</span>
@@ -67,18 +79,6 @@ const Portfolio = () => {
       href: "https://github.com/tgulu/Show-Time",
       sourceCode: "https://show-time-movies.netlify.app/",
       style: "shadow-blue-500",
-    },
-    {
-      id: 6,
-      child: (
-        <>
-          <span className="text-sm">Android Messenger</span>
-        </>
-      ),
-      src: messageApp,
-      href: "https://github.com/tgulu/Messenger-Chat-App",
-      sourceCode: "https://github.com/tgulu/Messenger-Chat-App",
-      style: "shadow-pink-400",
     },
   ];
 
