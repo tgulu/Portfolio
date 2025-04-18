@@ -50,8 +50,8 @@ const Home = () => {
       </section>
 
       {/* Tech Stack Section */}
-      <section id="techstack" className="relative">
-        <h3 className="text-lg font-bold mx-10 my-6 right-9 ">TECH STACK</h3>
+      <section id="techstack" className="relative mt-14">
+        <h3 className="text-lg font-bold mx-10 right-9 ">TECH STACK</h3>
         <TechStack />
       </section>
     </div>
