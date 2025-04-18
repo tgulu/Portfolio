@@ -1,3 +1,5 @@
+const plugin = require("tailwindcss/plugin");
+
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
@@ -25,9 +27,37 @@ module.exports = {
             borderRadius: "60% 40% 30% 70% / 60% 30% 70% 40%",
           },
         },
+        rotate: {
+          "0%": {
+            transform: "translate(-20%, -50%) rotate(0deg)",
+          },
+          "50%": {
+            transform: "translate(-20%, -50%) scale(1, 1.2) rotate(180deg)",
+          },
+          "100%": {
+            transform: "translate(-10%, -50%) rotate(360deg)",
+          },
+        },
+        blob: {
+          "0%": { transform: "translate(0px, 0px) scale(1)" },
+          "33%": { transform: "translate(30px, -50px) scale(1.1)" },
+          "66%": { transform: "translate(-9px, 20px) scale(0.9)" },
+          "100%": { transform: "translate(0px, 0px) scale(1)" },
+        },
+        scaleInOut: {
+          "0%, 100%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.5)" },
+        },
       },
       animation: {
         morph: "morph 5s ease-in-out infinite",
+        rotate: "rotate 10s infinite",
+        blob: "blob 7s infinite",
+        scaleInOut: "scaleInOut 3s infinite",
+        blobScale: "blob 7s infinite, scaleInOut 3s infinite",
+        blobScaleDelay2000: "blob 7s infinite, scaleInOut 3s infinite 2s",
+        blobScaleDelay4000: "blob 7s infinite, scaleInOut 3s infinite 4s",
+        blobScaleDelay6000: "blob 7s infinite, scaleInOut 3s infinite 6s",
       },
       screens: {
         sm: "640px",
@@ -38,13 +68,49 @@ module.exports = {
         portfolio: { raw: "(max-width: 640px)" },
       },
       gridTemplateRows: {
-        // Simple 16 row grid
         21: "repeat(4, minmax(300px, 1fr))",
-
-        // Complex site-specific row configuration
         layout: "200px minmax(900px, 1fr) 100px",
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addUtilities, theme }) {
+      addUtilities({
+        ".blur-bg": {
+          position: "fixed",
+          top: "0",
+          left: "0",
+          width: "100%",
+          height: "100%",
+          zIndex: "1",
+          backdropFilter: "blur(200px)",
+        },
+        ".cursor-effect": {
+          position: "fixed",
+          top: "50%",
+          left: "50%",
+          background:
+            "linear-gradient(to right, rgb(24, 24, 141), rgb(174, 22, 167))",
+          height: "60%",
+          aspectRatio: "1 / 1",
+          borderRadius: "50%",
+          zIndex: "1",
+          transform: "translate(-50%, -50%)",
+          animation: "rotate 10s infinite",
+        },
+      });
+
+      // Responsive blur effect for .cursor-effect on small screens
+      addUtilities(
+        {
+          ".sm\\:cursor-blur": {
+            filter: "blur(200px)",
+          },
+        },
+        {
+          variants: ["responsive"],
+        }
+      );
+    }),
+  ],
 };
