@@ -19,13 +19,13 @@ const stack = [
 
 const TechStack = () => {
   return (
-    <div className="grid grid-rows-3 sm:grid-cols-2 md:grid-cols-3 gap-6 px-10 m-9">
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-2 align-items-center justify-items-center ">
       {stack.map((tech, index) => (
         <div
           key={index}
-          className="border border-black rounded-xl  flex flex-col items-center justify-center hover:border-white/60 bg-white/20 backdrop-blur-md transition duration-300"
+          className="aspect-square w-32 sm:w-30 md:w-36 border border-black rounded-lg flex flex-col items-center justify-center  backdrop-blur-md transition duration-300"
         >
-          <div className="mb-4 p-3 border border-black rounded-full">
+          <div className="mb-3 p-3 border border-black hover:bg-white/20 rounded-full">
             {tech.icon}
           </div>
           <span className="text-sm text-black font-light">{tech.name}</span>
