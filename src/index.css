@@ -1,20 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;1,200;1,400;1,500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,300;1,200;1,300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Anuphan:wght@100;200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&family=Sedgwick+Ave+Display&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=IBM+Plex+Mono:ital,wght@1,100&family=Jost:ital,wght@0,100;0,300;1,200;1,300&family=Karla:ital,wght@0,300;0,400;1,200;1,400;1,500&family=Lilita+One&family=Raleway:ital,wght@1,300&family=Sedgwick+Ave+Display&family=Satisfy&family=Anuphan:wght@100;200&family=Tilt+Prism&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@alyer base {
+
+@layer base {
   html {
     font-family: "Karla", sans-serif;
+  }
+}
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
   }
 }
