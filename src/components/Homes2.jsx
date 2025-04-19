@@ -12,20 +12,20 @@ const Home = () => {
       <Blur />
 
       {/* Boxed wrapper */}
-      <div className="max-w-6xl mx-auto space-y-12 py-8 px-6">
+      <div className="max-w-6xl mx-auto  space-y-12 md:space-y-12 py-8 px-6">
         <Nav />
 
         {/* Hero Section */}
-        <section className="flex flex-col md:flex-row items-start gap-10 md:gap-18">
+        <section className="flex flex-col items-center text-center md:text-left md:flex-row md:items-start gap-10 md:gap-16">
           {/* Profile Pic */}
           <img
             src={Profile}
             alt="Thabo Gulu profile"
-            className="w-24 h-24 md:w-[120px] md:h-[140px] ml-0 md:ml-4 rounded-full border-2 border-gray-700 object-cover"
+            className="w-40 h-52 md:w-[120px] md:h-[140px] ml-0 md:ml-4 rounded-full border-2 border-gray-700 object-cover"
           />
 
           {/* Text Section */}
-          <div className="flex flex-col items-start gap-6">
+          <div className="flex flex-col items-start gap-2 md:gap-6">
             {/* Heading with Badge */}
             <div className="relative text-[28px] font-bold tracking-[0.03em] leading-snug text-black">
               <h1>
@@ -34,17 +34,17 @@ const Home = () => {
                 Software Developer.
               </h1>
               {/* "Open to work" badge */}
-              <div className="bg-green-900 absolute max-md:relative right-0 bottom-1.5 whitespace-nowrap text-green-300 hover:bg-green-500/25 text-sm px-3 py-1 rounded-full inline-block hover:text-green-500">
+              <div className="bg-green-900 relative md:absolute max-md:relative right-0 bottom-1.5 whitespace-nowrap text-green-300 hover:bg-green-500/25 text-sm px-3 py-1 rounded-full inline-block hover:text-green-500 my-6 md:my-0">
                 <span className="p-1  mr-1.5 inline-block bg-green-400 rounded-full"></span>
                 Open to work
               </div>
             </div>
 
             {/* Social / Location */}
-            <div className="w-full flex items-center justify-between max-md:flex-col max-md:gap-3">
+            <div className="w-full flex items-center justify-between max-md:flex-col   max-md:gap-3 my-2 md:my-0">
               {/* Location */}
-              <div className="flex items-center gap-2 text-sm text-gray-200">
-                <HiOutlineLocationMarker className="text-lg" />
+              <div className="flex items-center md:gap-2 gap-0 text-xs md:text-sm text-gray-950 md:text-gray-200">
+                <HiOutlineLocationMarker className="text-xl " />
                 United Kingdom
               </div>
 
