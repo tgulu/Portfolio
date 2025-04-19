@@ -1,6 +1,13 @@
 import React from "react";
 
 const Blur = () => {
+  {
+    /* TO DO */
+  }
+  {
+    /* Create a randomizer to pick the colors for the blobs in each page section  */
+  }
+
   return (
     <div className="absolute inset-0 -z-10 flex items-center justify-center">
       <div className="relative w-full max-w-lg">
@@ -8,6 +15,8 @@ const Blur = () => {
 
         <div className="absolute top-0 right-8 md:-right-20 md:w-60 md:h-[200px] w-36 h-44 bg-pink-400  rounded-full mix-blend-multiply filter blur-2xl opacity-80 animate-blobScaleDelay2000"></div>
 
+        {/* TO DO */}
+        {/* Increase size of blurs for full screens,  */}
         <div className="absolute -bottom-8 left-4 md:-left-36 md:w-60 md:h-[200px] w-36 h-44 bg-cyan-400 rounded-full mix-blend-multiply filter blur-2xl opacity-80 animate-blobScaleDelay6000"></div>
 
         <div className="absolute bottom-28 md:-bottom-3 right-2 md:left-32 md:w-60 md:h-[200px] w-36 h-44 bg-indigo-400 rounded-full mix-blend-multiply filter blur-2xl opacity-80 animate-blobScaleDelay4000"></div>
