@@ -72,7 +72,7 @@ const Home = () => {
         </section>
 
         {/* Tech Stack */}
-        <section id="techstack" className="px-2">
+        <section id="techstack" className="px-0 md:px-2">
           <h3 className="text-lg font-bold mb-2">TECH STACK</h3>
           <TechStack />
         </section>
