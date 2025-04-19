@@ -42,7 +42,10 @@ const Portfolio = () => {
   };
 
   return (
-    <div className="relative min-h-screen flex flex-col items-center justify-center px-4 py-5">
+    <div
+      name="projects"
+      className="relative min-h-screen flex flex-col items-center justify-center px-4 py-5"
+    >
       <div className="w-full max-w-3xl">
         <Slider {...settings}>
           {portfolio.map((project) => (
@@ -81,7 +84,7 @@ const Portfolio = () => {
               {/* Action Buttons */}
               <div className="flex flex-col sm:flex-row justify-center sm:justify-between gap-4 mt-6">
                 <a
-                  href={project.href}
+                  href={project.liveDemo}
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center justify-center gap-2 px-4 py-2 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition"
@@ -90,7 +93,7 @@ const Portfolio = () => {
                   Live Demo
                 </a>
                 <a
-                  href={project.sourceCode}
+                  href={project.gitCode}
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center justify-center gap-2 px-4 py-2 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition"
