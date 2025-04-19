@@ -11,7 +11,7 @@ const Nav = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center  w-full ">
+    <div className="flex justify-between items-center w-full ">
       <h1 className="text-xl justify-start font-semibold tracking-wide">
         THABO GULU
       </h1>
@@ -35,9 +35,9 @@ const Nav = () => {
       {/* Mobile menu toggle button */}
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-7 z-10 hover:scale-125 text-black md:hidden"
+        className="cursor-pointer  z-10 hover:scale-125 text-black md:hidden"
       >
-        {nav ? <FaTimes size={35} /> : <FaBars size={30} />}{" "}
+        {nav ? <FaTimes size={25} /> : <FaBars size={25} />}
         {/* Display close or open icon */}
       </div>
 
