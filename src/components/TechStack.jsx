@@ -2,8 +2,8 @@ import React from "react";
 import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs } from "react-icons/fa";
 import {
   SiNextdotjs,
-  //   SiTypescript,
-  SiJest,
+  SiTypescript,
+  //   SiJest,
   SiTailwindcss,
   SiJavascript,
 } from "react-icons/si";
@@ -11,7 +11,7 @@ import {
 const stack = [
   // Scripting
   { name: "JavaScript", icon: <SiJavascript size={25} color="#F7DF1E" /> },
-  // { name: "TypeScript", icon: <SiTypescript size={25} color="#3178C6" /> },
+  { name: "TypeScript", icon: <SiTypescript size={25} color="#3178C6" /> },
   // Core frontend
   { name: "React", icon: <FaReact size={25} color="#61DBFB" /> },
   { name: "Next JS", icon: <SiNextdotjs size={25} color="#000000" /> },
@@ -25,7 +25,7 @@ const stack = [
   { name: "Node.js", icon: <FaNodeJs size={25} color="#3C873A" /> },
 
   // Testing
-  { name: "Jest", icon: <SiJest size={25} color="#99425b" /> },
+  //   { name: "Jest", icon: <SiJest size={25} color="#99425b" /> },
 ];
 
 const TechStack = () => {
