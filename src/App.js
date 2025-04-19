@@ -8,7 +8,7 @@ import Homes2 from "./components/Homes2";
 
 function App() {
   return (
-    <div className="m-2 px-4 md:px-2">
+    <div className="    px-4 md:px-60 ">
       {/* <Blur /> */}
       <Homes2 />
       {/* <Homes /> */}
