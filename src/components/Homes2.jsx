@@ -8,11 +8,11 @@ import Blur from "./Blur";
 
 const Home = () => {
   return (
-    <div className="min-h-screen text-black ">
+    <div className="w-full min-h-screen h-screen flex justify-center  ">
       <Blur />
 
       {/* Boxed wrapper */}
-      <div className="max-w-6xl mx-auto space-y-12 py-10 px-6">
+      <div className="max-w-6xl mx-auto space-y-12 py-8 px-6">
         <Nav />
 
         {/* Hero Section */}
