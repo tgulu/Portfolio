@@ -9,21 +9,23 @@ import {
 } from "react-icons/si";
 
 const stack = [
-  { name: "React", icon: <FaReact size={30} color="#61DBFB" /> },
-  { name: "JavaScript", icon: <SiJavascript size={30} color="#F7DF1E" /> },
-  { name: "Next JS", icon: <SiNextdotjs size={30} color="#000000" /> },
-  { name: "Tailwind", icon: <SiTailwindcss size={30} color="#38BDF8" /> },
-  { name: "HTML", icon: <FaHtml5 size={30} color="#E34F26" /> },
-  { name: "CSS", icon: <FaCss3Alt size={30} color="#1572B6" /> },
+  { name: "React", icon: <FaReact size={25} color="#61DBFB" /> },
+  { name: "JavaScript", icon: <SiJavascript size={25} color="#F7DF1E" /> },
+  { name: "Next JS", icon: <SiNextdotjs size={25} color="#000000" /> },
+  { name: "Tailwind", icon: <SiTailwindcss size={25} color="#38BDF8" /> },
+  { name: "HTML", icon: <FaHtml5 size={25} color="#E34F26" /> },
+  { name: "CSS", icon: <FaCss3Alt size={25} color="#1572B6" /> },
+  { name: "HTML", icon: <FaHtml5 size={25} color="#E34F26" /> },
+  { name: "CSS", icon: <FaCss3Alt size={25} color="#1572B6" /> },
 ];
 
 const TechStack = () => {
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-2 align-items-center justify-items-center ">
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-16 gap-y-9 justify-items-center ">
       {stack.map((tech, index) => (
         <div
           key={index}
-          className="aspect-square w-32 sm:w-30 md:w-36 border border-black rounded-lg flex flex-col items-center justify-center  backdrop-blur-md transition duration-300"
+          className="aspect-square w-32 sm:w-30 md:w-28 border border-black rounded-lg flex flex-col items-center justify-center  backdrop-blur-md transition duration-300"
         >
           <div className="mb-3 p-3 border border-black hover:bg-white/20 rounded-full">
             {tech.icon}
