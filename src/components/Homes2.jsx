@@ -8,7 +8,7 @@ import Blur from "./Blur";
 
 const Home = () => {
   return (
-    <div className="w-full min-h-screen h-screen flex justify-center  ">
+    <div className="w-full md:min-h-screen h-full flex justify-center  ">
       <Blur />
 
       {/* Boxed wrapper */}
@@ -25,7 +25,7 @@ const Home = () => {
           />
 
           {/* Text Section */}
-          <div className="flex flex-col items-start gap-2 md:gap-6">
+          <div className="flex flex-col items-start  gap-2 md:gap-6">
             {/* Heading with Badge */}
             <div className="relative text-[28px] font-bold tracking-[0.03em] leading-snug text-black">
               <h1>
@@ -35,7 +35,7 @@ const Home = () => {
               </h1>
               {/* "Open to work" badge */}
               <div className="bg-green-900 relative md:absolute max-md:relative right-0 bottom-1.5 whitespace-nowrap text-green-300 hover:bg-green-500/25 text-sm px-3 py-1 rounded-full inline-block hover:text-green-500 my-6 md:my-0">
-                <span className="p-1  mr-1.5 inline-block bg-green-400 rounded-full"></span>
+                <span className="p-1 mr-1.5 inline-block bg-green-400 rounded-full"></span>
                 Open to work
               </div>
             </div>
