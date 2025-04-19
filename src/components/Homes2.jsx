@@ -9,7 +9,7 @@ import Blur from "./Blur";
 
 const Home = () => {
   return (
-    <div className="min-h-screen  text-black px-4 md:px-56 ">
+    <div className="min-h-screen bg-red-300  text-black px-4 md:px-56 ">
       <Blur />
       {/* Navbar */}
 
@@ -50,8 +50,8 @@ const Home = () => {
       </section>
 
       {/* Tech Stack Section */}
-      <section id="techstack" className="relative mt-14">
-        <h3 className="text-lg font-bold mx-10 right-9 ">TECH STACK</h3>
+      <section id="techstack" className="relative mt-14 px-20">
+        <h3 className="text-lg font-bold  ">TECH STACK</h3>
         <TechStack />
       </section>
     </div>
