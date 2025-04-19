@@ -9,17 +9,20 @@ const Nav = () => {
     { id: 2, link: "projects" },
     { id: 3, link: "contact" },
   ];
+
   return (
-    <div className="flex justify-between items-center mb-2">
-      <h1 className="text-xl font-semibold tracking-wide">Thabo Gulu</h1>
-      {/* <nav className="space-x-6 text-sm font-light"> */}
+    <div className="flex justify-between items-center  w-full ">
+      <h1 className="text-xl justify-start font-semibold tracking-wide">
+        THABO GULU
+      </h1>
+
       {/* Desktop Navigation */}
 
-      <ul className="hidden md:flex space-x-6 text-sm hover:underline font-light">
+      <ul className="hidden md:flex space-x-12 text-sm hover:underline font-light">
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-7 cursor-pointer capitalize font-signature text-black hover:scale-125 duration-200"
+            className="mx-9 cursor-pointer capitalize font-signature text-black hover:scale-125 duration-200"
           >
             <Link to={link} smooth duration={200}>
               {/* Smooth scroll for the link */}
