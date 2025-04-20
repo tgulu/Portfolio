@@ -1,6 +1,6 @@
 import Contact from "./components/Contact";
-import Portfolios from "./components/Portfolios";
-import Homes2 from "./components/Homes2";
+import Portfolio from "./components/Portfolio";
+import Home from "./components/Home";
 
 import Blur from "./components/Blur";
 
@@ -12,8 +12,8 @@ function App() {
 
       {/* Main Content */}
       <div className="relative z-10 px-4 md:px-60">
-        <Homes2 />
-        <Portfolios />
+        <Home />
+        <Portfolio />
         <Contact />
       </div>
     </div>
