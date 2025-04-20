@@ -1,10 +1,9 @@
 import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { HiOutlineLocationMarker } from "react-icons/hi";
-import Profile from "../assets/profile.png";
+import Profile from "../assets/portfolio/profile.png";
 import TechStack from "./TechStack";
 import Nav from "./Nav";
-import Blur from "./Blur";
 
 const Home = () => {
   return (
