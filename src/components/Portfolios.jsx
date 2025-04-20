@@ -44,8 +44,9 @@ const Portfolio = () => {
   return (
     <div
       name="projects"
-      className="min-h-screen w-full flex flex-col items-center justify-center px-4 py-5 "
+      className="xl:h-[70vh] md:h-[100vh] w-full flex flex-col items-center justify-center px-4 py-5"
     >
+      {/*     <div className="w-full  xl:h-[60vh] md:h-[100vh] h-full flex justify-center"> */}
       <div className="w-full max-w-3xl">
         <Slider {...settings}>
           {portfolio.map((project) => (
