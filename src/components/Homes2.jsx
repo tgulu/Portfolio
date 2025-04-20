@@ -9,8 +9,6 @@ import Blur from "./Blur";
 const Home = () => {
   return (
     <div className="w-full md:min-h-screen h-full flex justify-center  ">
-      <Blur />
-
       {/* Boxed wrapper */}
       <div className="max-w-6xl mx-auto  space-y-12 md:space-y-12 py-8 px-6">
         <Nav />
@@ -43,7 +41,7 @@ const Home = () => {
             {/* Social / Location */}
             <div className="w-full flex items-center justify-between max-md:flex-col   max-md:gap-3 my-2 md:my-0">
               {/* Location */}
-              <div className="flex items-center md:gap-2 gap-0 text-xs md:text-sm text-gray-950 md:text-gray-200">
+              <div className="flex items-center md:gap-2 gap-0 text-xs md:text-sm text-gray-900 ">
                 <HiOutlineLocationMarker className="text-xl " />
                 United Kingdom
               </div>
