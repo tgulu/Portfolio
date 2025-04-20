@@ -49,15 +49,30 @@ module.exports = {
           "50%": { transform: "scale(1.5)" },
         },
       },
+      // animation: {
+      //   morph: "morph 5s ease-in-out infinite",
+      //   rotate: "rotate 10s infinite",
+      //   blob: "blob 7s infinite",
+      //   scaleInOut: "scaleInOut 3s infinite",
+      //   blobScaleDelay2000: "blob 5s ease-in-out infinite",
+      //   blobScaleDelay4000: "blob 7s ease-in-out infinite",
+      //   blobSlowDelay: "blob 7s ease-in-out infinite 5s",
+      // },
       animation: {
-        morph: "morph 5s ease-in-out infinite",
-        rotate: "rotate 10s infinite",
-        blob: "blob 7s infinite",
-        scaleInOut: "scaleInOut 3s infinite",
-        blobScale: "blob 7s infinite, scaleInOut 3s infinite",
-        blobScaleDelay2000: "blob 7s infinite, scaleInOut 3s infinite 2s",
-        blobScaleDelay4000: "blob 7s infinite, scaleInOut 3s infinite 4s",
-        blobScaleDelay6000: "blob 7s infinite, scaleInOut 3s infinite 6s",
+        morph: "morph 10s ease-in-out infinite",
+        rotate: "rotate 20s linear infinite",
+        blob: "blob 14s ease-in-out infinite",
+        scaleInOut: "scaleInOut 8s ease-in-out infinite",
+        blobScale:
+          "blob 14s ease-in-out infinite, scaleInOut 8s ease-in-out infinite",
+
+        // Delayed blob scale animations for staggered movement
+        blobScaleDelay2000:
+          "blob 14s ease-in-out infinite, scaleInOut 8s ease-in-out infinite",
+        blobScaleDelay4000:
+          "blob 14s ease-in-out infinite, scaleInOut 8s ease-in-out infinite",
+        blobScaleDelay6000:
+          "blob 14s ease-in-out infinite, scaleInOut 8s ease-in-out infinite 4s",
       },
       screens: {
         sm: "640px",
