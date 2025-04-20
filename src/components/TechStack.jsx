@@ -36,7 +36,7 @@ const TechStack = () => {
           key={index}
           className="aspect-square w-32 sm:w-30 md:w-28 border border-black rounded-lg flex flex-col items-center justify-center  backdrop-blur-md transition duration-300 shadow-md"
         >
-          <div className="mb-3 p-3 border border-black hover:bg-white/20 rounded-full">
+          <div className="mb-3 p-3 border border-black  rounded-full">
             {tech.icon}
           </div>
           <span className="text-sm text-black font-light">{tech.name}</span>
