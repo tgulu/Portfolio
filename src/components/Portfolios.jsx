@@ -111,8 +111,6 @@ const Portfolio = () => {
           ))}
         </Slider>
       </div>
-
-      {/* Background Blur */}
     </div>
   );
 };
