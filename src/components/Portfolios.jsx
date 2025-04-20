@@ -76,7 +76,6 @@ const Portfolio = () => {
                 {project.tech.map((item, index) => (
                   <div
                     key={index}
-                    // className="flex items-center gap-2 text-sm px-3 py-1 bg-white border border-black/20 rounded-full"
                     className=" flex h-6 items-center justify-center gap-1.5 px-2 rounded-full
                     bg-white/60 text-black shadow-md"
                   >
