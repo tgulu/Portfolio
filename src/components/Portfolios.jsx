@@ -69,11 +69,13 @@ const Portfolio = () => {
               </div>
 
               {/* Tech Stack */}
-              <div className="flex flex-wrap justify-center md:justify-start gap-3 mt-5">
+              <div className="grid grid-cols-4 max-sm:grid-cols-3 max-[500px]:grid-cols-2 items-center gap-2 mt-5">
                 {project.tech.map((item, index) => (
                   <div
                     key={index}
-                    className="flex items-center gap-2 text-sm px-3 py-1 bg-white border border-black/20 rounded-full"
+                    // className="flex items-center gap-2 text-sm px-3 py-1 bg-white border border-black/20 rounded-full"
+                    className=" flex h-6 items-center justify-center gap-1.5 px-4 rounded-full
+                    bg-white/60 text-black shadow-md"
                   >
                     {item.icon}
                     <span>{item.name}</span>
@@ -82,12 +84,12 @@ const Portfolio = () => {
               </div>
 
               {/* Action Buttons */}
-              <div className="flex flex-col sm:flex-row justify-center sm:justify-between gap-4 mt-6">
+              <div className="flex flex-col sm:flex-row justify-center  sm:justify-between gap-4 mt-6">
                 <a
                   href={project.liveDemo}
                   target="_blank"
                   rel="noreferrer"
-                  className="flex items-center justify-center gap-2 px-4 py-2 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition"
+                  className="flex items-center justify-center gap-2 px-4 py-2 bg-white/50 text-black font-semibold rounded-lg hover:bg-gray-800 transition shadow-md"
                 >
                   <FaExternalLinkAlt />
                   Live Demo
@@ -96,7 +98,7 @@ const Portfolio = () => {
                   href={project.gitCode}
                   target="_blank"
                   rel="noreferrer"
-                  className="flex items-center justify-center gap-2 px-4 py-2 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition"
+                  className="flex items-center justify-center gap-2 px-4 py-2 bg-white/50 text-black font-semibold rounded-lg hover:bg-gray-800 transition shadow-md"
                 >
                   <FaGithub />
                   Source Code
