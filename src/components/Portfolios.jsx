@@ -44,7 +44,7 @@ const Portfolio = () => {
   return (
     <div
       name="projects"
-      className="relative min-h-screen flex flex-col items-center justify-center px-4 py-5"
+      className="min-h-screen w-full flex flex-col items-center justify-center px-4 py-5 "
     >
       <div className="w-full max-w-3xl">
         <Slider {...settings}>
@@ -110,7 +110,6 @@ const Portfolio = () => {
       </div>
 
       {/* Background Blur */}
-      <Blur />
     </div>
   );
 };
