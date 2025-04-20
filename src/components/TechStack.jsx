@@ -34,7 +34,7 @@ const TechStack = () => {
       {stack.map((tech, index) => (
         <div
           key={index}
-          className="aspect-square w-32 sm:w-30 md:w-28 border border-black rounded-lg flex flex-col items-center justify-center  backdrop-blur-md transition duration-300"
+          className="aspect-square w-32 sm:w-30 md:w-28 border border-black rounded-lg flex flex-col items-center justify-center  backdrop-blur-md transition duration-300 shadow-md"
         >
           <div className="mb-3 p-3 border border-black hover:bg-white/20 rounded-full">
             {tech.icon}
