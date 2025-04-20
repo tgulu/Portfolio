@@ -8,7 +8,7 @@ import Blur from "./Blur";
 
 const Home = () => {
   return (
-    <div className="w-full  xl:h-[60vh] md:h-[100vh]  h-full flex justify-center  ">
+    <div className="w-full  xl:h-[60vh] md:h-[100vh] h-full flex justify-center">
       {/* Boxed wrapper */}
       <div className="max-w-6xl mx-auto space-y-12 md:space-y-12 lg:py-0 py-8 px-6 ">
         <Nav />
