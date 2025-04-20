@@ -1,7 +1,6 @@
-import Contact from "./components/Contact";
-import Portfolio from "./components/Portfolio";
-import Home from "./components/Home";
-
+import Contact from "./pages/Contact";
+import Portfolio from "./pages/Portfolio";
+import Home from "./pages/Home";
 import Blur from "./components/Blur";
 
 function App() {
