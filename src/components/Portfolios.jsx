@@ -69,7 +69,7 @@ const Portfolio = () => {
               </div>
 
               {/* Tech Stack */}
-              <div className="grid grid-rows-4 md:grid-cols-4 items-center gap-2 mt-5">
+              <div className="grid grid-rows-4 md:grid-cols-2 items-center gap-2 mt-5">
                 {project.tech.map((item, index) => (
                   <div
                     key={index}
