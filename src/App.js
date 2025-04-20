@@ -1,6 +1,7 @@
 import Contact from "./components/Contact";
 import Portfolios from "./components/Portfolios";
 import Homes2 from "./components/Homes2";
+
 import Blur from "./components/Blur";
 
 function App() {
