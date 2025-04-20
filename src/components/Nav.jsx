@@ -15,7 +15,7 @@ const Nav = () => {
   const toggleMenu = () => setNav(!nav);
 
   return (
-    <header className="w-full z-50">
+    <header className="w-full mt-3 z-50">
       {/* Desktop Nav */}
       <div className="hidden md:flex justify-between items-center w-full">
         <h1 className="text-xl font-semibold tracking-wide">THABO GULU</h1>
