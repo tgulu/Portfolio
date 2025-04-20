@@ -1,5 +1,4 @@
 import React from "react";
-import Blur from "./Blur";
 
 const Contact = () => {
   return (

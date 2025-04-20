@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { FaBars } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoIosClose } from "react-icons/io";
