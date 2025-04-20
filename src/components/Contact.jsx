@@ -11,9 +11,9 @@ const Contact = () => {
         <div className="flex flex-col p-4 justify-center max-w-screen-lg gap-y-8 mx-auto h-full">
           {/* Heading Section */}
           <div className="pb-0 md:px-28 text-center">
-            <p className="pt-14 md:pt-0 mt-0 mb-2 text-5xl">
-              <span className="border-b-2 border-black ">CONTACT</span>
-            </p>
+            <h1 className="pt-14 md:pt-0 mt-0 mb-2 text-2xl md:text-4xl">
+              <span className="">CONTACT</span>
+            </h1>
             <p className=" pt-4">
               Want to collaborate or discuss a project idea? Fill out the form
               below, and let’s bring your vision to life!
