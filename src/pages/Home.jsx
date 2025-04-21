@@ -7,9 +7,9 @@ import Nav from "../components/Nav";
 
 const Home = () => {
   return (
-    <div className="w-full  xl:h-[90vh] md:h-[100vh] h-full flex justify-center">
+    <div className="w-full xl:h-[70vh]  h-full flex justify-center">
       {/* Boxed wrapper */}
-      <div className="max-w-6xl mx-auto space-y-12 md:space-y-12 lg:py-0 py-8 px-6 ">
+      <div className="max-w-6xl mx-auto space-y-12 md:space-y-12 lg:py-0 py-8 px-6  ">
         <Nav />
 
         {/* Hero Section */}
@@ -70,7 +70,7 @@ const Home = () => {
 
         {/* Tech Stack */}
         <section id="techstack" className="text-center px-0 md:px-2">
-          <h3 className="text-lg font-bold mb-2">TECH STACK</h3>
+          <h3 className="text-lg font-bold mb-2 ">TECH STACK</h3>
 
           <TechStack />
         </section>

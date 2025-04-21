@@ -43,7 +43,7 @@ const Portfolio = () => {
   return (
     <div
       name="projects"
-      className="xl:h-[82vh] md:h-[100vh] w-full flex flex-col items-center justify-center px-4 py-5"
+      className="xl:h-[82vh] md:h-[100vh] md:mt-12 mt-0 w-full flex flex-col items-center justify-center px-4 py-5"
     >
       <div className="w-full max-w-3xl">
         <h1 className="pt-14 md:pt-0 mt-0 mb-1 text-center font-bold text-lg md:text-2xl lg:text-4xl">
