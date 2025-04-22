@@ -145,32 +145,32 @@ export const portfolio = [
       "A website showcasing a Brighton-based music producer and mixer, featuring artists they've worked with, labels they've collaborated with, and notable show credits.",
   },
 
-  {
-    id: 6,
-    child: (
-      <>
-        <span className="text-sm">Show Time</span>
-      </>
-    ),
-    src: movies,
-    gitCode: "https://github.com/tgulu/Show-Time",
-    liveDemo: "https://show-time-movies.netlify.app/",
-    style: "shadow-blue-500",
-    tech: [
-      {
-        name: "JavaScript",
-        icon: <SiJavascript className="text-yellow-400" />,
-      },
-      {
-        name: "CSS",
-        icon: <SiCss3 className="text-blue-500" />,
-      },
-      {
-        name: "HTML",
-        icon: <SiHtml5 className="text-orange-500" />,
-      },
-    ],
-    descrption:
-      "Show Time is a movie database website displaying popular films using the TMDb API. Users can browse titles, posters, overviews, and release dates in a table view.",
-  },
+  // {
+  //   id: 6,
+  //   child: (
+  //     <>
+  //       <span className="text-sm">Show Time</span>
+  //     </>
+  //   ),
+  //   src: movies,
+  //   gitCode: "https://github.com/tgulu/Show-Time",
+  //   liveDemo: "https://show-time-movies.netlify.app/",
+  //   style: "shadow-blue-500",
+  //   tech: [
+  //     {
+  //       name: "JavaScript",
+  //       icon: <SiJavascript className="text-yellow-400" />,
+  //     },
+  //     {
+  //       name: "CSS",
+  //       icon: <SiCss3 className="text-blue-500" />,
+  //     },
+  //     {
+  //       name: "HTML",
+  //       icon: <SiHtml5 className="text-orange-500" />,
+  //     },
+  //   ],
+  //   descrption:
+  //     "Show Time is a movie database website displaying popular films using the TMDb API. Users can browse titles, posters, overviews, and release dates in a table view.",
+  // },
 ];
