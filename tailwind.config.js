@@ -61,18 +61,18 @@ module.exports = {
       animation: {
         morph: "morph 10s ease-in-out infinite",
         rotate: "rotate 20s linear infinite",
-        blob: "blob 14s ease-in-out infinite",
+        blob: "blob 10s ease-in-out infinite",
         scaleInOut: "scaleInOut 8s ease-in-out infinite",
         blobScale:
           "blob 14s ease-in-out infinite, scaleInOut 8s ease-in-out infinite",
 
         // Delayed blob scale animations for staggered movement
         blobScaleDelay2000:
-          "blob 14s ease-in-out infinite, scaleInOut 8s ease-in-out infinite",
+          "blob 10s ease-in-out infinite, scaleInOut 8s ease-in-out infinite",
         blobScaleDelay4000:
-          "blob 14s ease-in-out infinite, scaleInOut 8s ease-in-out infinite",
+          "blob 10s ease-in-out infinite, scaleInOut 8s ease-in-out infinite",
         blobScaleDelay6000:
-          "blob 14s ease-in-out infinite, scaleInOut 8s ease-in-out infinite 4s",
+          "blob 10s ease-in-out infinite, scaleInOut 8s ease-in-out infinite 4s",
       },
       screens: {
         sm: "640px",

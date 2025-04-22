@@ -30,7 +30,7 @@ const stack = [
 
 const TechStack = () => {
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-3 gap-x-10 gap-y-2 xl:gap-x-20 xl:gap-y-12 justify-items-center ">
+    <div className="grid grid-cols-2  md:grid-cols-4 xl:grid-cols-3 gap-x-10 gap-y-2 xl:gap-x-24 xl:gap-y-20 justify-items-center ">
       {stack.map((tech, index) => (
         <div
           key={index}
