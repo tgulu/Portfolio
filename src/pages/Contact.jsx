@@ -4,13 +4,13 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="h-full md:h-[95vh] w-full flex flex-col items-center justify-center px-4 py-3 "
+      className="h-full md:h-[85vh] w-full flex flex-col items-center justify-center px-1 py-3 "
     >
       <div className="w-full p-1 text-black h-screen">
         <div className="flex flex-col p-4 justify-center max-w-screen-lg gap-y-8 mx-auto h-full">
           {/* Heading Section */}
           <div className="pb-0 md:px-28 text-center">
-            <h1 className="pt-14 md:pt-0 mt-0 mb-2 text-2xl md:text-4xl">
+            <h1 className="pt-14 md:pt-0 mt-0 mb-2 text-lg md:text-xl lg:text-4xl">
               <span className="">CONTACT</span>
             </h1>
             <p className=" pt-4">

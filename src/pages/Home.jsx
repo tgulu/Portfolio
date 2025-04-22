@@ -70,7 +70,9 @@ const Home = () => {
 
         {/* Tech Stack */}
         <section id="techstack" className="text-center px-0 md:px-2">
-          <h3 className="text-lg font-bold mb-2 ">TECH STACK</h3>
+          <h3 className="text-lg xl:text-2xl font-bold mb-2 md:mb-8 ">
+            TECH STACK
+          </h3>
 
           <TechStack />
         </section>

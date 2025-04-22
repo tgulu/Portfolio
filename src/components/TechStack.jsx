@@ -30,16 +30,18 @@ const stack = [
 
 const TechStack = () => {
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-10 gap-y-2 justify-items-center ">
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-3 gap-x-10 gap-y-2 xl:gap-x-20 xl:gap-y-12 justify-items-center ">
       {stack.map((tech, index) => (
         <div
           key={index}
-          className="aspect-square w-32 sm:w-30 md:w-28 border border-black rounded-lg flex flex-col items-center justify-center  backdrop-blur-md transition duration-300 shadow-md"
+          className="aspect-square w-32 md:w-28 2xl:w-36 border border-black rounded-lg flex flex-col items-center justify-center backdrop-blur-md transition duration-300 shadow-md"
         >
           <div className="mb-3 p-3 border border-black  rounded-full">
             {tech.icon}
           </div>
-          <span className="text-sm text-black font-light">{tech.name}</span>
+          <span className="text-sm xl:text-lg text-black font-light">
+            {tech.name}
+          </span>
         </div>
       ))}
     </div>
