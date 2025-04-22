@@ -5,17 +5,19 @@ import {
   SiTypescript,
   SiTailwindcss,
   SiJavascript,
+  SiMongodb,
+  SiExpress,
 } from "react-icons/si";
 
 const stack = [
-  { name: "JavaScript", icon: <SiJavascript size={25} color="#F7DF1E" /> },
-  { name: "TypeScript", icon: <SiTypescript size={25} color="#3178C6" /> },
   { name: "React", icon: <FaReact size={25} color="#61DBFB" /> },
-  { name: "Next JS", icon: <SiNextdotjs size={25} color="#000000" /> },
+  { name: "JavaScript", icon: <SiJavascript size={25} color="#F7DF1E" /> },
+  { name: "Node.js", icon: <FaNodeJs size={25} color="#3C873A" /> },
+  { name: "Tailwind", icon: <SiTailwindcss size={25} color="#38BDF8" /> },
+  { name: "Express", icon: <SiExpress size={25} color="#000000" /> },
+  { name: "MongoDB", icon: <SiMongodb size={25} color="#47A248" /> },
   { name: "HTML", icon: <FaHtml5 size={25} color="#E34F26" /> },
   { name: "CSS", icon: <FaCss3Alt size={25} color="#1572B6" /> },
-  { name: "Tailwind", icon: <SiTailwindcss size={25} color="#38BDF8" /> },
-  { name: "Node.js", icon: <FaNodeJs size={25} color="#3C873A" /> },
 ];
 
 const TechStack = () => {
@@ -24,9 +26,9 @@ const TechStack = () => {
       {stack.map((tech, index) => (
         <div
           key={index}
-          className="aspect-square w-32 md:w-28 2xl:w-36 border border-black rounded-lg flex flex-col items-center justify-center backdrop-blur-md transition duration-300 shadow-md"
+          className="group aspect-square w-32 md:w-28 2xl:w-36 border border-black rounded-lg flex flex-col items-center justify-center backdrop-blur-md transition duration-300 shadow-md"
         >
-          <div className="mb-3 p-3 border border-black rounded-full">
+          <div className="mb-3 p-3 border border-black rounded-full transition-transform duration-300 ease-in-out group-hover:scale-110 group-hover:shadow-lg">
             {tech.icon}
           </div>
           <span className="text-sm xl:text-lg text-black font-light">
