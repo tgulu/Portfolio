@@ -1,12 +1,12 @@
 import React from "react";
 import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs } from "react-icons/fa";
 import {
-  SiNextdotjs,
-  SiTypescript,
+  // SiNextdotjs,
+  // SiTypescript,
   SiTailwindcss,
   SiJavascript,
-  SiMongodb,
-  SiExpress,
+  // SiMongodb,
+  // SiExpress,
 } from "react-icons/si";
 
 const stack = [
