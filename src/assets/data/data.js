@@ -1,6 +1,6 @@
 import photography from "../portfolio/shotby.png";
 import cameron from "../portfolio/cameron4.jpg";
-import movies from "../portfolio/movies.jpeg";
+// import movies from "../portfolio/movies.jpeg";
 import skater from "../portfolio/e-commerce.jpg";
 import ieuan from "../portfolio/ieuan.jpg";
 import deadwax from "../portfolio/deadwax.jpg";
