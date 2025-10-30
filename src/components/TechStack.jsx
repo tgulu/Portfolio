@@ -14,8 +14,8 @@ const stack = [
   { name: "JavaScript", icon: <SiJavascript size={25} color="#F7DF1E" /> },
   { name: "Node.js", icon: <FaNodeJs size={25} color="#3C873A" /> },
   { name: "Tailwind", icon: <SiTailwindcss size={25} color="#38BDF8" /> },
-  { name: "Express", icon: <SiExpress size={25} color="#000000" /> },
-  { name: "MongoDB", icon: <SiMongodb size={25} color="#47A248" /> },
+  // { name: "Express", icon: <SiExpress size={25} color="#000000" /> },
+  // { name: "MongoDB", icon: <SiMongodb size={25} color="#47A248" /> },
   { name: "HTML", icon: <FaHtml5 size={25} color="#E34F26" /> },
   { name: "CSS", icon: <FaCss3Alt size={25} color="#1572B6" /> },
 ];
