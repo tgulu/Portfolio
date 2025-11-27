@@ -2,8 +2,9 @@ import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import Profile from "../assets/portfolio/profile.png";
-import TechStack from "../components/TechStack";
+import TechStack from "./TechStack";
 import Nav from "../components/Nav";
+import Portfolio from "./Portfolio";
 
 const Home = () => {
   return (
@@ -67,9 +68,12 @@ const Home = () => {
             </div>
           </div>
         </section>
+        <section>
+          <Portfolio />
+        </section>
 
         {/* Tech Stack */}
-        <section id="techstack" className="text-center px-0 md:px-2">
+        <section id="skills" className="text-center px-0 md:px-2">
           <h3 className="text-lg xl:text-2xl font-bold mb-2 md:mb-8 ">
             TECH STACK
           </h3>
