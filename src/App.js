@@ -12,7 +12,7 @@ function App() {
       {/* Main Content */}
       <div className="relative z-10 px-4 md:px-60">
         <Home />
-        <Portfolio />
+        {/* <Portfolio /> */}
         <Contact />
       </div>
     </div>
