@@ -7,8 +7,9 @@ const Nav = () => {
   const [nav, setNav] = useState(false);
 
   const links = [
-    { id: 1, link: "projects" },
-    { id: 2, link: "contact" },
+    { id: 1, link: "skills" },
+    { id: 2, link: "projects" },
+    { id: 3, link: "contact" },
   ];
 
   const toggleMenu = () => setNav(!nav);
@@ -22,7 +23,7 @@ const Nav = () => {
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="mx-9 cursor-pointer capitalize text-black hover:scale-125 duration-200"
+              className="mx-2 cursor-pointer capitalize text-black hover:scale-125 duration-200"
             >
               <Link to={link} smooth duration={800}>
                 {link}
