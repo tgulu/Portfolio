@@ -1,5 +1,4 @@
 import Contact from "./pages/Contact";
-import Portfolio from "./pages/Portfolio";
 import Home from "./pages/Home";
 import Blur from "./components/Blur";
 
