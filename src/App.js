@@ -4,7 +4,7 @@ import Blur from "./components/Blur";
 
 function App() {
   return (
-    <div className="relative min-h-screen w-full overflow-hidden">
+    <div className="relative min-h-screen w-full sm:w-full overflow-hidden">
       {/* Global Blur Background */}
       <Blur />
 

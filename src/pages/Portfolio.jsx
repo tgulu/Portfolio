@@ -1,10 +1,9 @@
-import React from "react";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { portfolio } from "../assets/data/data";
 import Slider from "react-slick";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import ProjectCard from "../components/ProjectCard";
 
 // Custom Arrow Components
 function SampleNextArrow({ onClick }) {
@@ -52,61 +51,7 @@ const Portfolio = () => {
 
         <Slider {...settings}>
           {portfolio.map((project) => (
-            <div
-              key={project.id}
-              className="bg-white/70 backdrop-blur-md rounded-2xl px-8 py-6 w-full z-10"
-            >
-              {/* Image */}
-              <img
-                src={project.src}
-                alt={project.title}
-                className="rounded-lg border shadow-md border-neutral-800 w-full"
-              />
-
-              {/* Title & Description */}
-              <div className="mt-4">
-                <h3 className="text-lg font-bold tracking-wide">
-                  {project.title}
-                </h3>
-                <p className="text-sm text-black mt-2">{project.descrption}</p>
-              </div>
-
-              {/* Tech Stack */}
-              <div className="grid grid-rows-4 md:grid-cols-2 items-center gap-2 mt-5">
-                {project.tech.map((item, index) => (
-                  <div
-                    key={index}
-                    className=" flex h-6 items-center justify-center gap-1.5 px-2 rounded-full
-                    bg-white/60 text-black shadow-md"
-                  >
-                    {item.icon}
-                    <span>{item.name}</span>
-                  </div>
-                ))}
-              </div>
-
-              {/* Action Buttons */}
-              <div className="flex flex-col sm:flex-row justify-center sm:justify-between gap-4 mt-7 md:mt-[-40px]">
-                <a
-                  href={project.liveDemo}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="flex items-center justify-center gap-2 px-4 py-2 bg-white/50 text-black font-semibold rounded-lg hover:bg-gray-800 transition shadow-md"
-                >
-                  <FaExternalLinkAlt />
-                  Live Demo
-                </a>
-                <a
-                  href={project.gitCode}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="flex items-center justify-center gap-2 px-4 py-2 bg-white/50 text-black font-semibold rounded-lg hover:bg-gray-800 transition shadow-md"
-                >
-                  <FaGithub />
-                  Source Code
-                </a>
-              </div>
-            </div>
+            <ProjectCard key={project.id} project={project} className="w-full" />
           ))}
         </Slider>
       </div>

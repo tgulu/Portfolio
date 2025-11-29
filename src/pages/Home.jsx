@@ -4,13 +4,14 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 import Profile from "../assets/portfolio/profile.png";
 import TechStack from "./TechStack";
 import Nav from "../components/Nav";
-import Portfolio from "./Portfolio";
+// import Portfolio from "./Portfolio";
+import Projects from "./Projects";
 
 const Home = () => {
   return (
     <div className="w-full min-h-screen flex justify-center">
       {/* Boxed wrapper */}
-      <div className="max-w-6xl mx-auto space-y-12 md:space-y-12 lg:py-0 py-8 px-6  ">
+      <div className="max-w-sm sm:min-w-max space-y-12 md:space-y-12 lg:py-0 py-8 px-6  ">
         <Nav />
 
         {/* Hero Section */}
@@ -68,8 +69,9 @@ const Home = () => {
             </div>
           </div>
         </section>
+        <section>{/* <Portfolio /> */}</section>
         <section>
-          <Portfolio />
+          <Projects />
         </section>
 
         {/* Tech Stack */}
