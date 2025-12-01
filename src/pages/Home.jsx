@@ -1,11 +1,10 @@
 import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { HiOutlineLocationMarker } from "react-icons/hi";
-import Profile from "../assets/portfolio/profile.png";
+import Profile from "../assets/portfolio/profile.jpg";
 import TechStack from "./TechStack";
 import Nav from "../components/Nav";
-// import Portfolio from "./Portfolio";
-import Projects from "./Projects";
+import Portfolio from "./Portfolio";
 
 const Home = () => {
   return (
@@ -15,7 +14,7 @@ const Home = () => {
         <Nav />
 
         {/* Hero Section */}
-        <section className="flex flex-col items-center text-center md:text-left md:flex-row md:items-start gap-10 md:gap-16">
+        <section className="flex flex-col items-center justify-evenly text-center md:text-left md:flex-row md:items-start gap-10 md:gap-16">
           {/* Profile Pic */}
           <img
             src={Profile}
@@ -24,16 +23,16 @@ const Home = () => {
           />
 
           {/* Text Section */}
-          <div className="flex flex-col items-start  gap-2 md:gap-6">
+          <div className="flex flex-col items-start gap-2 md:gap-6">
             {/* Heading with Badge */}
             <div className="relative text-[28px] font-bold tracking-[0.03em] leading-snug text-black">
               <h1>
-                <span className="text-black">Hey, I'm Thabo.</span> I'm a
-                Frontend <br />
+                <span className="text-black">Hi, I'm Thabo.</span> I'm a
+                Full-Stack <br />
                 Software Developer.
               </h1>
               {/* "Open to work" badge */}
-              <div className="bg-green-900 relative md:absolute max-md:relative right-0 bottom-1.5 whitespace-nowrap text-green-300 hover:bg-green-500/25 text-sm px-3 py-1 rounded-full inline-block hover:text-green-500 my-6 md:my-0">
+              <div className="bg-green-900 pl-2 relative md:absolute max-md:relative right-0 bottom-1.5 whitespace-nowrap text-green-300 hover:bg-green-500/25 text-sm px-3 py-1 rounded-full inline-block hover:text-green-500 my-6 md:my-0">
                 <span className="p-1 mr-1.5 inline-block bg-green-400 rounded-full"></span>
                 Open to work
               </div>
@@ -69,10 +68,10 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section>{/* <Portfolio /> */}</section>
         <section>
-          <Projects />
+          <Portfolio />
         </section>
+        <section>{/* <Projects /> */}</section>
 
         {/* Tech Stack */}
         <section id="skills" className="text-center px-0 md:px-2">

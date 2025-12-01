@@ -18,8 +18,8 @@ const Nav = () => {
     <header className="w-full mt-3 z-50 xl:mt-16">
       {/* Desktop Nav */}
       <div className="hidden md:flex justify-between items-center w-full">
-        <h1 className="text-xl font-semibold tracking-wide">THABO GULU</h1>
-        <ul className="flex space-x-12 text-sm font-light">
+        <h1 className="text-2xl font-semibold tracking-wide">THABO GULU</h1>
+        <ul className="flex space-x-12 text-xl font-light">
           {links.map(({ id, link }) => (
             <li
               key={id}

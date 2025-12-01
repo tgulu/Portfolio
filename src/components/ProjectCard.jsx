@@ -20,7 +20,7 @@ const ProjectCard = ({ project, className = "" }) => {
         <h3 className="text-lg font-bold text-center tracking-wide">
           {titleContent}
         </h3>
-        <p className="text-sm  text-black mt-2">{project.descrption}</p>
+        <p className="text-xl  text-black mt-2">{project.descrption}</p>
       </div>
 
       <div className="grid grid-rows-4 md:grid-cols-1 items-center gap-2 my-5">
@@ -37,23 +37,23 @@ const ProjectCard = ({ project, className = "" }) => {
 
       <div className=" items-center flex justify-center mt-4 gap-4">
         <a
-        href={project.liveDemo}
-        target="_blank"
-        rel="noreferrer"
-        className="flex items-center justify-center gap-5 px-4 py-2 bg-white/20 text-black font-semibold rounded-lg hover:bg-white/90 transition shadow-md"
-      >
-        <FaExternalLinkAlt className="text-2xl md:text-lg" />
-        Live Demo
-      </a>
-      <a
-        href={project.gitCode}
-        target="_blank"
-        rel="noreferrer"
-        className="flex items-center justify-center gap-2 px-4 py-2 bg-white/20 text-black font-semibold rounded-lg hover:bg-white/90 transition shadow-md"
-      >
-        <FaGithub className="text-2xl md:text-lg" />
-        Source Code
-      </a>
+          href={project.liveDemo}
+          target="_blank"
+          rel="noreferrer"
+          className="flex items-center justify-center gap-5 px-4 py-2 bg-white/20 text-black font-semibold rounded-lg hover:bg-white/90 transition shadow-md"
+        >
+          <FaExternalLinkAlt className="text-2xl md:text-lg" />
+          Live Demo
+        </a>
+        <a
+          href={project.gitCode}
+          target="_blank"
+          rel="noreferrer"
+          className="flex items-center justify-center gap-2 px-4 py-2 bg-white/20 text-black font-semibold rounded-lg hover:bg-white/90 transition shadow-md"
+        >
+          <FaGithub className="text-2xl md:text-lg" />
+          Source Code
+        </a>
       </div>
     </div>
   );
