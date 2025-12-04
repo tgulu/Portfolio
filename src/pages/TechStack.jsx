@@ -1,11 +1,10 @@
-import React from "react";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import {
-  // SiNextdotjs,
+  SiNextdotjs,
   SiTypescript,
   SiTailwindcss,
   SiJavascript,
-  SiPython,
+  // SiPython,
   // SiMongodb,
   // SiExpress,
 } from "react-icons/si";
@@ -14,7 +13,7 @@ const stack = [
   { name: "React", icon: <FaReact size={25} color="#61DBFB" /> },
   { name: "JavaScript", icon: <SiJavascript size={25} color="#F7DF1E" /> },
   { name: "Typescript", icon: <SiTypescript size={25} color="#3178C6" /> },
-  { name: "Python", icon: <SiPython size={25} color="#3776AB" /> },
+  { name: "Next", icon: <SiNextdotjs size={25} color="#000000" /> },
   { name: "Node.js", icon: <FaNodeJs size={25} color="#3C873A" /> },
   { name: "Tailwind", icon: <SiTailwindcss size={25} color="#38BDF8" /> },
 
