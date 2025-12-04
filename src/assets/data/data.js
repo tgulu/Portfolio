@@ -32,14 +32,23 @@ export const portfolio = [
     liveDemo: "https://frame-box-frontend-eta.vercel.app/",
     style: "shadow-orange-400",
     tech: [
-      { name: "React", icon: <FaReact className="text-blue-400" /> },
+      { name: "React", icon: <FaReact size={25} className="text-blue-400" /> },
       {
         name: "Javascript",
-        icon: <SiJavascript className="text-yellow-500" />,
+        icon: <SiJavascript size={25} className="text-yellow-500" />,
       },
-      { name: "Tailwind", icon: <SiTailwindcss className="text-cyan-400" /> },
-      { name: "Node.js", icon: <SiNodedotjs className="text-green-500" /> },
-      { name: "PostgreSQL", icon: <SiPostgresql className="text-blue-600" /> },
+      {
+        name: "Tailwind",
+        icon: <SiTailwindcss size={25} className="text-cyan-400" />,
+      },
+      {
+        name: "Node.js",
+        icon: <SiNodedotjs size={25} className="text-green-500" />,
+      },
+      {
+        name: "PostgreSQL",
+        icon: <SiPostgresql size={25} className="text-blue-600" />,
+      },
     ],
     descrption:
       "FrameBox is a responsive web platform that allows users to sign up, log in, browse movies, create playlists, and showcase favorites. Blending Letterboxd’s movie-tracking concept with Spotify’s sleek design, it delivers an engaging user experience through a powerful React + Tailwind frontend integrated with a robust Node.js backend",

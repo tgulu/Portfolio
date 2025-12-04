@@ -15,7 +15,7 @@ const Nav = () => {
   const toggleMenu = () => setNav(!nav);
 
   return (
-    <header className="w-full mt-3 z-50 xl:mt-16">
+    <header className="w-full mt-3 z-50 xl:mt-16  ">
       {/* Desktop Nav */}
       <div className="hidden md:flex justify-between items-center w-full">
         <h1 className="text-2xl font-semibold tracking-wide">THABO GULU</h1>
@@ -47,7 +47,7 @@ const Nav = () => {
 
       {/* Mobile Menu */}
       {nav && (
-        <div className="bg-white text-black flex flex-col h-screen absolute top-0 left-0 w-full z-40">
+        <div className="bg-gradient-to-b from-purple-300  to-cyan-200 text-black flex flex-col h-screen absolute top-0 left-0 w-full z-40">
           {/* Close Icon */}
           <div className="flex justify-end p-6 mx-4">
             <IoIosClose

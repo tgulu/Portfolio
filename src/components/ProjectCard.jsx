@@ -8,7 +8,7 @@ const ProjectCard = ({ project, className = "" }) => {
 
   return (
     <div
-      className={`bg-white/70 backdrop-blur-md rounded-2xl px-8 py-6 z-10 ${className}`}
+      className={`bg-white/70 backdrop-blur-md rounded-2xl px-10 py-6 z-10 ${className}`}
     >
       <img
         src={project.src}
@@ -20,14 +20,16 @@ const ProjectCard = ({ project, className = "" }) => {
         <h3 className="text-lg font-bold text-center tracking-wide">
           {titleContent}
         </h3>
-        <p className="text-xl  text-black mt-2">{project.descrption}</p>
+        <p className="text-xl md:text-2xl  text-black mt-2">
+          {project.descrption}
+        </p>
       </div>
 
       <div className="grid grid-rows-4 md:grid-cols-1 items-center gap-2 my-5">
         {project.tech.map((item, index) => (
           <div
             key={index}
-            className="flex h-6 items-center justify-center gap-1.5 px-2 rounded-full bg-white/90 text-black shadow-md"
+            className="flex text-xl md:text-2xl h-8 items-center justify-center gap-1.5 px-2 rounded-full bg-white/90 text-black shadow-md"
           >
             <span>{item.name}</span>
             {item.icon}
