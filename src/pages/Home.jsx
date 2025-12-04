@@ -74,7 +74,7 @@ const Home = () => {
         <section>{/* <Projects /> */}</section>
 
         {/* Tech Stack */}
-        <section id="skills" className="text-center px-0 md:px-2">
+        <section id="SKILLS" className="text-center px-0 md:px-2">
           <h3 className="text-lg xl:text-2xl font-bold mb-2 md:mb-8 ">
             TECH STACK
           </h3>
