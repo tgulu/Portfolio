@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className="w-full min-h-screen flex justify-center">
       {/* Boxed wrapper */}
-      <div className="max-w-sm sm:min-w-max space-y-12 md:space-y-12 lg:py-0 py-8 px-6  ">
+      <div className="max-w-sm sm:min-w-max space-y-12 md:space-y-12 lg:py-0 py-8 px-1  ">
         <Nav />
 
         {/* Hero Section */}

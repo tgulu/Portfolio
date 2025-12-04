@@ -15,9 +15,9 @@ const Nav = () => {
   const toggleMenu = () => setNav(!nav);
 
   return (
-    <header className="w-full mt-3 z-50 xl:mt-16  ">
+    <header className="w-full z-50 -mt-6 xl:mt-16">
       {/* Desktop Nav */}
-      <div className="hidden md:flex justify-between items-center w-full">
+      <div className="hidden md:flex justify-between items-center ">
         <h1 className="text-2xl font-semibold tracking-wide">THABO GULU</h1>
         <ul className="flex space-x-12 text-xl font-light">
           {links.map(({ id, link }) => (
@@ -34,8 +34,11 @@ const Nav = () => {
       </div>
 
       {/* Mobile Nav Toggle */}
-      <div className="flex justify-between items-center md:hidden px-4 py-2">
-        <h1 className="text-xl font-semibold tracking-wide">THABO GULU</h1>
+
+      <div className="w-full flex justify-between items-center md:hidden  z-50 px-2 py-2">
+        <h1 className="text-xl text-black font-semibold tracking-wide">
+          THABO GULU
+        </h1>
 
         {/* Show hamburger only if menu is closed */}
         {!nav && (
