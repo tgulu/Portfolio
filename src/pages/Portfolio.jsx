@@ -41,6 +41,7 @@ const Portfolio = () => {
 
   return (
     <div
+      id="PORTFOLIO"
       name="projects"
       className="w-full flex flex-col items-center justify-center px-4 pt-8 pb-20"
     >
@@ -51,7 +52,11 @@ const Portfolio = () => {
 
         <Slider {...settings}>
           {portfolio.map((project) => (
-            <ProjectCard key={project.id} project={project} className="w-full" />
+            <ProjectCard
+              key={project.id}
+              project={project}
+              className="w-full"
+            />
           ))}
         </Slider>
       </div>
