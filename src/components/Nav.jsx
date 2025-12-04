@@ -7,9 +7,9 @@ const Nav = () => {
   const [nav, setNav] = useState(false);
 
   const links = [
-    { id: 1, link: "skills" },
-    { id: 2, link: "projects" },
-    { id: 3, link: "contact" },
+    { id: 1, link: "PORTFOLIO" },
+    { id: 2, link: "SKILLS" },
+    { id: 3, link: "CONTACT" },
   ];
 
   const toggleMenu = () => setNav(!nav);
