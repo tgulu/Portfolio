@@ -4,6 +4,7 @@ import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ProjectCard from "../components/ProjectCard";
+//https://jeremylam.netlify.app/
 
 // Custom Arrow Components
 function SampleNextArrow({ onClick }) {

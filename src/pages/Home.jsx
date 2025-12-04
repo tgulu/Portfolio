@@ -4,13 +4,14 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 import Profile from "../assets/portfolio/profile.jpg";
 import TechStack from "./TechStack";
 import Nav from "../components/Nav";
-import Portfolio from "./Portfolio";
+// import Portfolio from "./Portfolio";
+import Projects from "./Projects";
 
 const Home = () => {
   return (
     <div className="w-full min-h-screen flex justify-center">
       {/* Boxed wrapper */}
-      <div className="max-w-sm sm:min-w-max space-y-12 md:space-y-12 lg:py-0 py-8 px-6  ">
+      <div className="max-w-sm sm:min-w-max space-y-12 md:space-y-12 lg:py-0 py-8 px-1  ">
         <Nav />
 
         {/* Hero Section */}
@@ -23,31 +24,25 @@ const Home = () => {
           />
 
           {/* Text Section */}
-          <div className="flex flex-col items-start gap-2 md:gap-6">
+          <div className="flex flex-col items-start gap-3 md:gap-6 ">
             {/* Heading with Badge */}
-            <div className="relative text-[28px] font-bold tracking-[0.03em] leading-snug text-black">
+            <div className="relative text-3xl md:text-5xl font-bold tracking-[0.03em] leading-snug text-black">
               <h1>
                 <span className="text-black">Hi, I'm Thabo.</span> I'm a
                 Full-Stack <br />
                 Software Developer.
               </h1>
               {/* "Open to work" badge */}
-              <div className="bg-green-900 pl-2 relative md:absolute max-md:relative right-0 bottom-1.5 whitespace-nowrap text-green-300 hover:bg-green-500/25 text-sm px-3 py-1 rounded-full inline-block hover:text-green-500 my-6 md:my-0">
-                <span className="p-1 mr-1.5 inline-block bg-green-400 rounded-full"></span>
+              <div className="bg-green-900 pl-2 relative md:absolute max-md:relative right-0 bottom-1 whitespace-nowrap text-green-300 hover:bg-green-500/25 text-base md:text-xl px-3 py-1 rounded-full inline-block hover:text-green-500 my-6 md:my-0">
+                <span className="p-1.5 mx-1.5 inline-block bg-green-400 rounded-full"></span>
                 Open to work
               </div>
             </div>
 
             {/* Social / Location */}
-            <div className="w-full flex items-center justify-between max-md:flex-col   max-md:gap-3 my-2 md:my-0">
-              {/* Location */}
-              <div className="flex items-center md:gap-2 gap-0 text-xs md:text-sm text-gray-900 ">
-                <HiOutlineLocationMarker className="text-xl " />
-                United Kingdom
-              </div>
-
+            <div className="w-full flex items-center justify-between flex-col md:flex-row gap-3 my-2 md:my-0">
               {/* Social Links */}
-              <div className="flex items-center justify-end max-md:justify-center gap-5 text-base text-gray-900">
+              <div className="flex items-center justify-end max-md:justify-center gap-5 text-lg md:text-2xl text-gray-900">
                 <a
                   target="_blank"
                   rel="noreferrer"
@@ -65,13 +60,20 @@ const Home = () => {
                   <FaGithub className="text-xl" /> GitHub
                 </a>
               </div>
+              {/* Location */}
+              <div className="flex items-center md:gap-2 gap-0 text-lg md:text-2xl text-gray-900 ">
+                <HiOutlineLocationMarker className="text-xl " />
+                United Kingdom
+              </div>
             </div>
           </div>
         </section>
-        <section>
+        {/* <section>
           <Portfolio />
+        </section> */}
+        <section>
+          <Projects />
         </section>
-        <section>{/* <Projects /> */}</section>
 
         {/* Tech Stack */}
         <section id="SKILLS" className="text-center px-0 md:px-2">
